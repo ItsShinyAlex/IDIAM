@@ -40,11 +40,11 @@ p{
     font-size: @normal;
     color: @dgray;
     //line-height: 100%;
-    font-family: 'kandira';
+    font-family: 'Kandira PERSONAL';
 }
 
 .kan{
-    font-family: 'kandira' !important;
+    font-family: 'Kandira PERSONAL' !important;
 }
 
 .posten{
@@ -59,6 +59,8 @@ p{
       display: flex;
       justify-content: center;
       align-items: center;
+    
+    flex-direction: column;
 }
 
 .center{
@@ -80,4 +82,378 @@ h2{
         top: -200px;
         margin-bottom: -200px;
 }
+
+.btn{
+    
+    background-color: @pink;
+    color: white;
+    font-weight: 600;
+    font-size: @btn;
+    padding: 22px 28px;
+    border-radius: 8px;
+     font-family: 'Poetsen One';
+    transition: 0.3s all !important; 
+    &:hover{
+        //transform: scale(1.1) !important;
+            transition: 0.3s all !important; 
+        color: white;
+        background-color: @blue;
+    }
+}
+
+
+
+#somos{
+    
+    padding-bottom: 80px;
+    
+    .container{
+        max-width: 2000px;
+    }
+    
+    .col{
+        padding: 0 20px
+    }
+    
+    h1{
+        color: @blue;
+        margin-bottom: 80px;
+    }
+    
+    p{
+        text-align: justify;
+        text-align-last: left;
+        margin-bottom: 90px;
+        line-height: 115%;
+    }
+    
+  
+    
+    .txt{
+        
+        padding-left: 7%;
+        padding-right: 2%;
+        
+          .btn{
+        
+        }
+    }
+    
+    .oneimg{
+        padding: 0;
+        img{
+            width:  105%;
+        }
+    }
+    
+    
+}
+
+#testimonios{
+    background: url(../img/home/back-addonBLUE.png) center no-repeat;
+    min-height: 1050px;
+    background-size: cover;
+    
+    h2,h3,p{
+        color: white;
+    }
+    
+    h2{
+        padding-top: 260px;
+        padding-bottom: 100px;
+        font-size: @big;
+    }
+    
+    h3{
+        font-size: @s36;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        font-family: 'Poetsen One';
+    }
+    
+    p{
+        font-size: @small;
+        line-height: 115%;
+        padding: 0 10%;
+        font-weight: 300;
+    }
+    
+    .col{
+        padding: 0 30px;
+        .fcentered{
+            width: 100% !important;
+        }
+    }
+    
+    
+}
+
+#modalidades{
+    padding-bottom: 80px;
+    padding-top: 120px;
+    h2{
+        color: @blue;
+    }
+    
+
+    
+    .col{
+        width: 42%;
+        margin: 0 4%;
+        background-color: @whiten;
+        
+        img{
+            width: 100%;
+        }
+        
+        .pink-sqrt{
+              margin-bottom: 40px;
+            background-color: @pink;
+            
+              h3{
+                      padding: 20px;
+                    text-align: center;
+                    color: white;
+                    font-family: 'Kandira PERSONAL';
+                    font-size: @s36;
+                }
+            
+            
+        }
+        
+      
+        
+        p{
+            padding: 10px 11%;
+            text-align: center;
+            font-family: 'Poetsen One';
+            font-size: @normal;
+        }
+        
+ 
+    }
+    
+    .flex{
+        padding-top: 80px;
+        
+    
+    }
+    
+        .btns{
+            padding-top: 0;
+            .col{
+                background-color: white;
+                min-height: 210px;
+
+                a{
+                    text-align: center;
+                }
+                
+                .btn{
+    
+                        background-color: @blue;
+
+                        &:hover{
+                            transform: scale(1.1) !important;
+                                transition: 0.3s all !important; 
+                            color: white;
+                            background-color: @pink;
+                        }
+                    }
+            }
+        }
+    
+    
+    .posten{
+        margin-top: 60px;
+        font-size: @s36;
+        color: #5c5c5c;
+        text-align: center;
+        line-height: 120%;
+    }
+    
+}
+
+#ventajas{
+    background-color: @whiten;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    h2{
+        font-family: 'Poetsen One';
+        padding-bottom: 120px;
+    }
+    
+    p{
+        font-family: 'Poetsen One';
+        padding: 10px 22%;
+        color: @gray;
+        font-weight: 100;
+        line-height: 115%;
+ 
+    }
+
+    
+    .pad-h{
+        padding: 0 15%;
+    }
+    
+    .col{
+        flex-direction: column !important;
+        flex-flow: column !important;
+        margin: 20px 0%;
+        img{
+            width: 50%;
+        }
+        width: 50%;
+    }
+    
+    .rd{
+        width: 25%;
+        margin: 20px 4%;
+        p{
+            padding: 10px 5%;
+            line-height: 115%;
+        }
+    }
+    
+
+}
+
+#howtopay{
+    
+    background-color: @blue;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    h2, p{
+        text-align: center;
+        color: @whiten;
+        line-height: 115%;
+    }
+    
+    h2{
+        
+        font-size: @big;
+        padding-bottom: 20px;
+        font-weight: 500;
+    }
+    
+    p{
+        font-size: @normal;
+        font-family: 'Poetsen One';
+        font-weight: 100;
+    }
+    
+}
+
+
+
+#contacto{
+    background: url(../img/back-gray.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+    
+    padding-bottom: 120px;
+    
+    h2, p, a{
+        color: white;
+        line-height: 110%;
+    }
+    
+    .flex{
+        .c-col, #mapa{
+            padding: 0 30px;
+        }
+    }
+    
+    #mapa{
+        
+        .map{
+            padding-bottom: 60px;
+            iframe{
+                width: 90%;
+                max-height: 360px;
+            }
+            
+        }
+        
+        .nomar{
+            margin: 0;
+        }
+        
+        img{
+            margin-bottom: 50px;
+        }
+        
+        
+        p{
+            font-family: 'Poetsen One';
+            font-size: @normal;
+            margin-bottom: 0;
+        }
+        
+        .s{
+            font-size: @small;
+            text-align: left;
+            margin-top: 3px;
+        }
+        
+        
+          #phone{
+              margin-bottom: 20px;
+                max-height: 50px;
+              img{
+                  margin-bottom: 0;
+                  top: -10px;
+                  position: relative;
+              }
+            }
+        
+        .icons-bot{
+            
+            margin-bottom: 20px;
+            
+          
+            
+            .icon{
+               width: 15%; 
+            }
+            
+            .txt{
+                width: 85%;
+            }
+        }
+    }
+    
+    
+    
+    .c-col{
+        h2{
+            font-size: @big;
+            padding-bottom: 80px;
+            margin-left: 5px;
+        }
+        
+        p{
+             font-family: 'Kandira PERSONAL';
+            font-size: @small;
+            font-weight: 500;
+        }
+        
+        #followus{
+            .col{
+                width: 15%;
+                
+                img{
+                    transition: 0.3s all;
+                    &:hover{
+                        transition: 0.3s all;
+                        transform: scale(1.1) !important;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
 

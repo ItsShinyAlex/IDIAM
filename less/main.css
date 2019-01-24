@@ -21,86 +21,86 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'kandira';
-  src: url('font/KandiraPERSONAL-ExtraBlackItali.woff2') format('woff2'), url('font/KandiraPERSONAL-ExtraBlackItali.woff') format('woff');
+  font-family: 'Kandira PERSONAL';
+  src: url('font/Kandira PERSONALPERSONAL-ExtraBlackItali.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-ExtraBlackItali.woff') format('woff');
   font-weight: 900;
   font-style: italic;
 }
 @font-face {
-  font-family: 'kandira';
-  src: url('font/KandiraPERSONAL-Bold.woff2') format('woff2'), url('font/KandiraPERSONAL-Bold.woff') format('woff');
+  font-family: 'Kandira PERSONAL';
+  src: url('font/Kandira PERSONALPERSONAL-Bold.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: 'kandira';
-  src: url('font/KandiraPERSONAL-ExtraLightItali.woff2') format('woff2'), url('font/KandiraPERSONAL-ExtraLightItali.woff') format('woff');
+  font-family: 'Kandira PERSONAL';
+  src: url('font/Kandira PERSONALPERSONAL-ExtraLightItali.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-ExtraLightItali.woff') format('woff');
   font-weight: 200;
   font-style: italic;
 }
 @font-face {
-  font-family: 'kandira';
-  src: url('font/KandiraPERSONAL-Black.woff2') format('woff2'), url('font/KandiraPERSONAL-Black.woff') format('woff');
+  font-family: 'Kandira PERSONAL';
+  src: url('font/Kandira PERSONALPERSONAL-Black.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
-  font-family: 'kandira';
-  src: url('KandiraPERSONAL.woff2') format('woff2'), url('KandiraPERSONAL.woff') format('woff');
+  font-family: 'Kandira PERSONAL';
+  src: url('Kandira PERSONALPERSONAL.woff2') format('woff2'), url('Kandira PERSONALPERSONAL.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'kandira';
-  src: url('font/KandiraPERSONAL-Light.woff2') format('woff2'), url('font/KandiraPERSONAL-Light.woff') format('woff');
+  font-family: 'Kandira PERSONAL';
+  src: url('font/Kandira PERSONALPERSONAL-Light.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
-  font-family: 'kandira';
-  src: url('font/KandiraPERSONAL-LightItalic.woff2') format('woff2'), url('font/KandiraPERSONAL-LightItalic.woff') format('woff');
+  font-family: 'Kandira PERSONAL';
+  src: url('font/Kandira PERSONALPERSONAL-LightItalic.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-LightItalic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
-  font-family: 'kandira';
-  src: url('font/KandiraPERSONAL-BoldItalic.woff2') format('woff2'), url('font/KandiraPERSONAL-BoldItalic.woff') format('woff');
+  font-family: 'Kandira PERSONAL';
+  src: url('font/Kandira PERSONALPERSONAL-BoldItalic.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
 }
 @font-face {
-  font-family: 'kandira';
-  src: url('font/KandiraPERSONAL-Italic.woff2') format('woff2'), url('font/KandiraPERSONAL-Italic.woff') format('woff');
+  font-family: 'Kandira PERSONAL';
+  src: url('font/Kandira PERSONALPERSONAL-Italic.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
-  font-family: 'kandira';
-  src: url('font/KandiraPERSONAL-ThinItalic.woff2') format('woff2'), url('font/KandiraPERSONAL-ThinItalic.woff') format('woff');
+  font-family: 'Kandira PERSONAL';
+  src: url('font/Kandira PERSONALPERSONAL-ThinItalic.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-ThinItalic.woff') format('woff');
   font-weight: 100;
   font-style: italic;
 }
 @font-face {
-  font-family: 'kandira';
-  src: url('font/KandiraPERSONAL-BlackItalic.woff2') format('woff2'), url('font/KandiraPERSONAL-BlackItalic.woff') format('woff');
+  font-family: 'Kandira PERSONAL';
+  src: url('font/Kandira PERSONALPERSONAL-BlackItalic.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-BlackItalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
 }
 @font-face {
-  font-family: 'kandira';
-  src: url('font/KandiraPERSONAL-ExtraLight.woff2') format('woff2'), url('font/KandiraPERSONAL-ExtraLight.woff') format('woff');
+  font-family: 'Kandira PERSONAL';
+  src: url('font/Kandira PERSONALPERSONAL-ExtraLight.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-ExtraLight.woff') format('woff');
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: 'kandira';
-  src: url('font/KandiraPERSONAL-Thin.woff2') format('woff2'), url('font/KandiraPERSONAL-Thin.woff') format('woff');
+  font-family: 'Kandira PERSONAL';
+  src: url('font/Kandira PERSONALPERSONAL-Thin.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
-  font-family: 'kandira';
-  src: url('font/KandiraPERSONAL-ExtraBlack.woff2') format('woff2'), url('font/KandiraPERSONAL-ExtraBlack.woff') format('woff');
+  font-family: 'Kandira PERSONAL';
+  src: url('font/Kandira PERSONALPERSONAL-ExtraBlack.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-ExtraBlack.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
@@ -136,10 +136,10 @@ a:hover {
 p {
   font-size: 30px;
   color: #4f4f4f;
-  font-family: 'kandira';
+  font-family: 'Kandira PERSONAL';
 }
 .kan {
-  font-family: 'kandira' !important;
+  font-family: 'Kandira PERSONAL' !important;
 }
 .posten {
   font-family: 'Poetsen One' !important;
@@ -151,6 +151,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .center {
   text-align: center;
@@ -167,4 +168,276 @@ h2 {
   position: relative;
   top: -200px;
   margin-bottom: -200px;
+}
+.btn {
+  background-color: #e61674;
+  color: white;
+  font-weight: 600;
+  font-size: 53px;
+  padding: 22px 28px;
+  border-radius: 8px;
+  font-family: 'Poetsen One';
+  transition: 0.3s all !important;
+}
+.btn:hover {
+  transition: 0.3s all !important;
+  color: white;
+  background-color: #346cb3;
+}
+#somos {
+  padding-bottom: 80px;
+}
+#somos .container {
+  max-width: 2000px;
+}
+#somos .col {
+  padding: 0 20px;
+}
+#somos h1 {
+  color: #346cb3;
+  margin-bottom: 80px;
+}
+#somos p {
+  text-align: justify;
+  text-align-last: left;
+  margin-bottom: 90px;
+  line-height: 115%;
+}
+#somos .txt {
+  padding-left: 7%;
+  padding-right: 2%;
+}
+#somos .oneimg {
+  padding: 0;
+}
+#somos .oneimg img {
+  width: 105%;
+}
+#testimonios {
+  background: url(../img/home/back-addonBLUE.png) center no-repeat;
+  min-height: 1050px;
+  background-size: cover;
+}
+#testimonios h2,
+#testimonios h3,
+#testimonios p {
+  color: white;
+}
+#testimonios h2 {
+  padding-top: 260px;
+  padding-bottom: 100px;
+  font-size: 60px;
+}
+#testimonios h3 {
+  font-size: 36px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-family: 'Poetsen One';
+}
+#testimonios p {
+  font-size: 24px;
+  line-height: 115%;
+  padding: 0 10%;
+  font-weight: 300;
+}
+#testimonios .col {
+  padding: 0 30px;
+}
+#testimonios .col .fcentered {
+  width: 100% !important;
+}
+#modalidades {
+  padding-bottom: 80px;
+  padding-top: 120px;
+}
+#modalidades h2 {
+  color: #346cb3;
+}
+#modalidades .col {
+  width: 42%;
+  margin: 0 4%;
+  background-color: #f4f2f2;
+}
+#modalidades .col img {
+  width: 100%;
+}
+#modalidades .col .pink-sqrt {
+  margin-bottom: 40px;
+  background-color: #e61674;
+}
+#modalidades .col .pink-sqrt h3 {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Kandira PERSONAL';
+  font-size: 36px;
+}
+#modalidades .col p {
+  padding: 10px 11%;
+  text-align: center;
+  font-family: 'Poetsen One';
+  font-size: 30px;
+}
+#modalidades .flex {
+  padding-top: 80px;
+}
+#modalidades .btns {
+  padding-top: 0;
+}
+#modalidades .btns .col {
+  background-color: white;
+  min-height: 210px;
+}
+#modalidades .btns .col a {
+  text-align: center;
+}
+#modalidades .btns .col .btn {
+  background-color: #346cb3;
+}
+#modalidades .btns .col .btn:hover {
+  transform: scale(1.1) !important;
+  transition: 0.3s all !important;
+  color: white;
+  background-color: #e61674;
+}
+#modalidades .posten {
+  margin-top: 60px;
+  font-size: 36px;
+  color: #5c5c5c;
+  text-align: center;
+  line-height: 120%;
+}
+#ventajas {
+  background-color: #f4f2f2;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#ventajas h2 {
+  font-family: 'Poetsen One';
+  padding-bottom: 120px;
+}
+#ventajas p {
+  font-family: 'Poetsen One';
+  padding: 10px 22%;
+  color: #6b6b6b;
+  font-weight: 100;
+  line-height: 115%;
+}
+#ventajas .pad-h {
+  padding: 0 15%;
+}
+#ventajas .col {
+  flex-direction: column !important;
+  flex-flow: column !important;
+  margin: 20px 0%;
+  width: 50%;
+}
+#ventajas .col img {
+  width: 50%;
+}
+#ventajas .rd {
+  width: 25%;
+  margin: 20px 4%;
+}
+#ventajas .rd p {
+  padding: 10px 5%;
+  line-height: 115%;
+}
+#howtopay {
+  background-color: #346cb3;
+  padding-top: 80px;
+  padding-bottom: 200px;
+}
+#howtopay h2,
+#howtopay p {
+  text-align: center;
+  color: #f4f2f2;
+  line-height: 115%;
+}
+#howtopay h2 {
+  font-size: 60px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+#howtopay p {
+  font-size: 30px;
+  font-family: 'Poetsen One';
+  font-weight: 100;
+}
+#contacto {
+  background: url(../img/back-gray.jpg) center no-repeat;
+  background-size: cover;
+  padding-top: 140px;
+  padding-bottom: 120px;
+}
+#contacto h2,
+#contacto p,
+#contacto a {
+  color: white;
+  line-height: 110%;
+}
+#contacto .flex .c-col,
+#contacto .flex #mapa {
+  padding: 0 30px;
+}
+#contacto #mapa .map {
+  padding-bottom: 60px;
+}
+#contacto #mapa .map iframe {
+  width: 90%;
+  max-height: 360px;
+}
+#contacto #mapa .nomar {
+  margin: 0;
+}
+#contacto #mapa img {
+  margin-bottom: 50px;
+}
+#contacto #mapa p {
+  font-family: 'Poetsen One';
+  font-size: 30px;
+  margin-bottom: 0;
+}
+#contacto #mapa .s {
+  font-size: 24px;
+  text-align: left;
+  margin-top: 3px;
+}
+#contacto #mapa #phone {
+  margin-bottom: 20px;
+  max-height: 50px;
+}
+#contacto #mapa #phone img {
+  margin-bottom: 0;
+  top: -10px;
+  position: relative;
+}
+#contacto #mapa .icons-bot {
+  margin-bottom: 20px;
+}
+#contacto #mapa .icons-bot .icon {
+  width: 15%;
+}
+#contacto #mapa .icons-bot .txt {
+  width: 85%;
+}
+#contacto .c-col h2 {
+  font-size: 60px;
+  padding-bottom: 80px;
+  margin-left: 5px;
+}
+#contacto .c-col p {
+  font-family: 'Kandira PERSONAL';
+  font-size: 24px;
+  font-weight: 500;
+}
+#contacto .c-col #followus .col {
+  width: 15%;
+}
+#contacto .c-col #followus .col img {
+  transition: 0.3s all;
+}
+#contacto .c-col #followus .col img:hover {
+  transition: 0.3s all;
+  transform: scale(1.1) !important;
 }
