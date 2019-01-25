@@ -36,7 +36,7 @@ a{
     }
 }
 
-p{
+p, li{
     font-size: @normal;
     color: @dgray;
     //line-height: 100%;
@@ -79,8 +79,8 @@ h2{
 
 .upper{
      position: relative;
-        top: -200px;
-        margin-bottom: -200px;
+        top: -120px;
+        margin-bottom: -120px;
 }
 
 .btn{
@@ -102,6 +102,9 @@ h2{
 }
 
 
+
+
+/* ==[ ★ home - principal ★ ]== */
 
 #somos{
     
@@ -188,7 +191,7 @@ h2{
     
 }
 
-#modalidades{
+#modalidades-estudio, #modalidades{
     padding-bottom: 80px;
     padding-top: 120px;
     h2{
@@ -274,7 +277,7 @@ h2{
     
 }
 
-#ventajas{
+#valores, #ventajas{
     background-color: @whiten;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -319,7 +322,7 @@ h2{
 
 }
 
-#howtopay{
+#howtopay, #galeria{
     
     background-color: @blue;
     padding-top: 80px;
@@ -455,5 +458,287 @@ h2{
         
     }
 }
+
+/* ==[ ★ Quienes somos - who we are ★ ]== */
+
+#somoswho{
+    background: url(../img/whoweare/back-banner.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 975px;
+    
+    h1{
+        padding-top: 340px;
+        font-size: @giant;
+        color: white;
+        font-family: 'Poetsen One' !important;
+        
+        margin-bottom: 85px;
+    }
+}
+
+#idiam{
+  
+    background: url(../img/whoweare/back-whiten.png) top no-repeat;
+    min-height: 1100px;
+    
+    img{
+        width: 40%;
+        margin-top: 180px;
+        margin-bottom: 80px;
+    }
+    
+    p{
+        margin: 0 14%;
+        margin-bottom: 30px;
+        text-align: justify;
+        text-align-last: center;
+        
+    }
+    
+    p:last-of-type{
+        margin-bottom: 200px;
+    }
+    
+    
+}
+
+.whitetxt{
+    h1,h2,h3,h4,p{
+        color: white;
+    }
+}
+
+.pt{
+    padding-top: 30px;
+}
+
+#mision{
+ 
+    background: url(../img/whoweare/back-pink.png) center no-repeat;
+    min-height: 1340px;
+    padding-top: 550px;
+    top: -666px;
+    margin-bottom: -1111px;
+    h2{
+        font-size: @big;
+        margin-bottom: 40px;
+    }
+    
+    
+    p{
+        text-align: justify;
+        line-height: 110%;
+    }
+    
+    #mission{
+        position: relative;
+        bottom: 69px;
+        padding-left: 10%;
+    }
+    
+    .col{
+        padding: 0 2%;
+        
+        img{
+            width: 95%;
+        }
+        
+        #students{
+            position: relative;
+            right: 10%;
+            width: 110%;
+        }
+    }
+    
+}
+
+#valores{
+    padding-top: 280px;
+    
+    
+    .fcentered{
+
+    }
+    
+    img{
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* ==[ ★ Modalidades de estudio ★ ]== */
+
+#aprender{
+    background: url(../img/modalidades/banner.jpg) top no-repeat;
+    background-size: cover;
+    h1{
+        color: white;
+        font-size: @giant;
+        font-family: 'Poetsen One';
+        padding-top: 300px;
+        
+        padding-bottom: 240px;
+    }
+}
+
+#modalidades-estudio{
+    background: url(../img/whoweare/back-whiten.png) top no-repeat;
+    h2{
+        padding-top: 50px;
+        color: @blue;
+        font-size: @s48;
+    }
+    
+    
+    .col{
+         background-color: white;
+        p{
+            padding: 0 6%;
+            font-size: @small;
+            line-height: 115%;
+            text-align: justify;
+        }
+    }
+    
+    padding-bottom: 360px;
+}
+
+
+#objetivos{
+     z-index: 10;
+    top: -280px;
+    background: url(../img/modalidades/back-blue.png) center no-repeat;
+    min-height: 1050px;
+    padding: 0 20%;
+    h2{
+        padding-top: 380px;
+        font-size: @big;
+        
+    }
+    
+    h2,p{
+        line-height: 115%;
+        margin-bottom: 40px;
+        
+    }
+    
+    p{
+        font-weight: 300;
+    }
+    
+    
+}
+
+#niveles{
+    background-color: white;
+    padding-top: 340px;
+    h2{
+        color: @pink;
+        font-size: @s48;
+        margin-bottom: 40px;
+    }
+    
+    top: -360px;
+    margin-bottom: -300px;
+    z-index: 1;
+    
+    p{
+        line-height: 115%;
+        margin-bottom: 100px;
+        padding: 0 11%;
+    }
+    
+
+    
+    .flex{
+        margin-bottom: 80px;
+        .col{
+            width: 33.33%;
+            
+            h3{
+                font-size: @normal;
+                font-family: 'Poetsen One';
+                color: @blue;
+                padding-top: 20px;
+                padding-bottom: 30px;
+            }
+            
+            p{
+                font-size: @small;
+                text-align: justify;
+            }
+            
+        }
+        
+        
+        
+        
+        
+            .whiten-col{
+                width: 31.3333%;
+                background-color: @whiten;
+                img{
+                    width: 100%;
+
+                }
+                margin: 0 1%;
+            }
+        
+        
+        
+    }
+    
+}
+
+#alojamiento{
+    
+    padding-bottom: 160px;
+    background-color: @whiten;
+    h2{
+        color: @blue;
+        padding-top: 180px;
+        margin-bottom: 120px;
+    }
+    
+    p, li{
+        line-height: 115%;
+        text-align: left;
+    }
+    
+    .bluedot{
+ 
+          color: @blue; 
+        font-size: @s48;
+        position: relative;
+        top: 6px;
+    }
+    
+
+}
+
+.short{
+    padding-top: 40px !important;
+    padding-bottom: 60px !important;
+}
+
+#five{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    h2{
+        font-size: @big;
+    }
+    
+    h2,p{
+        color: @blue;
+        font-family: 'Poetsen One';
+        text-align: center;
+    }
+}
+
+
+
 
 

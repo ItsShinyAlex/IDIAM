@@ -1,6 +1,8 @@
 <?php
     /* Template Name:  HOME*/ 
+    echo "<section id ='shiny-template'>";
     get_header();
+
 ?>
 
 
@@ -125,7 +127,7 @@
               
             <div class="col">
                 
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/sqrtESP.jpg" alt="Extranjera aprendiendo en clase privada">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/sqrtIND2.jpg" alt="Extranjera aprendiendo en clase privada">
                 <div class="pink-sqrt">
                     <h3>Clases privadas en Español</h3>
                 </div>
@@ -362,6 +364,7 @@
 
 <?php 
     get_footer();
+    echo "</section>";
 ?>
 
 

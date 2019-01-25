@@ -14,6 +14,9 @@
 .gray {
   color: #6b6b6b;
 }
+.s36 {
+  font-size: 36px !important;
+}
 @font-face {
   font-family: 'Poetsen One';
   src: url('PoetsenOne-Regular.woff2') format('woff2'), url('PoetsenOne-Regular.woff') format('woff');
@@ -133,7 +136,8 @@ a:hover {
 .flex .col.align-self-end {
   align-self: flex-end;
 }
-p {
+p,
+li {
   font-size: 30px;
   color: #4f4f4f;
   font-family: 'Kandira PERSONAL';
@@ -166,8 +170,8 @@ h2 {
 }
 .upper {
   position: relative;
-  top: -200px;
-  margin-bottom: -200px;
+  top: -120px;
+  margin-bottom: -120px;
 }
 .btn {
   background-color: #e61674;
@@ -184,6 +188,7 @@ h2 {
   color: white;
   background-color: #346cb3;
 }
+/* ==[ ★ home - principal ★ ]== */
 #somos {
   padding-bottom: 80px;
 }
@@ -246,25 +251,31 @@ h2 {
 #testimonios .col .fcentered {
   width: 100% !important;
 }
+#modalidades-estudio,
 #modalidades {
   padding-bottom: 80px;
   padding-top: 120px;
 }
+#modalidades-estudio h2,
 #modalidades h2 {
   color: #346cb3;
 }
+#modalidades-estudio .col,
 #modalidades .col {
   width: 42%;
   margin: 0 4%;
   background-color: #f4f2f2;
 }
+#modalidades-estudio .col img,
 #modalidades .col img {
   width: 100%;
 }
+#modalidades-estudio .col .pink-sqrt,
 #modalidades .col .pink-sqrt {
   margin-bottom: 40px;
   background-color: #e61674;
 }
+#modalidades-estudio .col .pink-sqrt h3,
 #modalidades .col .pink-sqrt h3 {
   padding: 20px;
   text-align: center;
@@ -272,34 +283,42 @@ h2 {
   font-family: 'Kandira PERSONAL';
   font-size: 36px;
 }
+#modalidades-estudio .col p,
 #modalidades .col p {
   padding: 10px 11%;
   text-align: center;
   font-family: 'Poetsen One';
   font-size: 30px;
 }
+#modalidades-estudio .flex,
 #modalidades .flex {
   padding-top: 80px;
 }
+#modalidades-estudio .btns,
 #modalidades .btns {
   padding-top: 0;
 }
+#modalidades-estudio .btns .col,
 #modalidades .btns .col {
   background-color: white;
   min-height: 210px;
 }
+#modalidades-estudio .btns .col a,
 #modalidades .btns .col a {
   text-align: center;
 }
+#modalidades-estudio .btns .col .btn,
 #modalidades .btns .col .btn {
   background-color: #346cb3;
 }
+#modalidades-estudio .btns .col .btn:hover,
 #modalidades .btns .col .btn:hover {
   transform: scale(1.1) !important;
   transition: 0.3s all !important;
   color: white;
   background-color: #e61674;
 }
+#modalidades-estudio .posten,
 #modalidades .posten {
   margin-top: 60px;
   font-size: 36px;
@@ -307,15 +326,18 @@ h2 {
   text-align: center;
   line-height: 120%;
 }
+#valores,
 #ventajas {
   background-color: #f4f2f2;
   padding-top: 80px;
   padding-bottom: 80px;
 }
+#valores h2,
 #ventajas h2 {
   font-family: 'Poetsen One';
   padding-bottom: 120px;
 }
+#valores p,
 #ventajas p {
   font-family: 'Poetsen One';
   padding: 10px 22%;
@@ -323,43 +345,53 @@ h2 {
   font-weight: 100;
   line-height: 115%;
 }
+#valores .pad-h,
 #ventajas .pad-h {
   padding: 0 15%;
 }
+#valores .col,
 #ventajas .col {
   flex-direction: column !important;
   flex-flow: column !important;
   margin: 20px 0%;
   width: 50%;
 }
+#valores .col img,
 #ventajas .col img {
   width: 50%;
 }
+#valores .rd,
 #ventajas .rd {
   width: 25%;
   margin: 20px 4%;
 }
+#valores .rd p,
 #ventajas .rd p {
   padding: 10px 5%;
   line-height: 115%;
 }
-#howtopay {
+#howtopay,
+#galeria {
   background-color: #346cb3;
   padding-top: 80px;
   padding-bottom: 200px;
 }
 #howtopay h2,
-#howtopay p {
+#galeria h2,
+#howtopay p,
+#galeria p {
   text-align: center;
   color: #f4f2f2;
   line-height: 115%;
 }
-#howtopay h2 {
+#howtopay h2,
+#galeria h2 {
   font-size: 60px;
   padding-bottom: 20px;
   font-weight: 500;
 }
-#howtopay p {
+#howtopay p,
+#galeria p {
   font-size: 30px;
   font-family: 'Poetsen One';
   font-weight: 100;
@@ -440,4 +472,210 @@ h2 {
 #contacto .c-col #followus .col img:hover {
   transition: 0.3s all;
   transform: scale(1.1) !important;
+}
+/* ==[ ★ Quienes somos - who we are ★ ]== */
+#somoswho {
+  background: url(../img/whoweare/back-banner.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 975px;
+}
+#somoswho h1 {
+  padding-top: 340px;
+  font-size: 64px;
+  color: white;
+  font-family: 'Poetsen One' !important;
+  margin-bottom: 85px;
+}
+#idiam {
+  background: url(../img/whoweare/back-whiten.png) top no-repeat;
+  min-height: 1100px;
+}
+#idiam img {
+  width: 40%;
+  margin-top: 180px;
+  margin-bottom: 80px;
+}
+#idiam p {
+  margin: 0 14%;
+  margin-bottom: 30px;
+  text-align: justify;
+  text-align-last: center;
+}
+#idiam p:last-of-type {
+  margin-bottom: 200px;
+}
+.whitetxt h1,
+.whitetxt h2,
+.whitetxt h3,
+.whitetxt h4,
+.whitetxt p {
+  color: white;
+}
+.pt {
+  padding-top: 30px;
+}
+#mision {
+  background: url(../img/whoweare/back-pink.png) center no-repeat;
+  min-height: 1340px;
+  padding-top: 550px;
+  top: -666px;
+  margin-bottom: -1111px;
+}
+#mision h2 {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+#mision p {
+  text-align: justify;
+  line-height: 110%;
+}
+#mision #mission {
+  position: relative;
+  bottom: 69px;
+  padding-left: 10%;
+}
+#mision .col {
+  padding: 0 2%;
+}
+#mision .col img {
+  width: 95%;
+}
+#mision .col #students {
+  position: relative;
+  right: 10%;
+  width: 110%;
+}
+#valores {
+  padding-top: 280px;
+}
+#valores img {
+  width: 100%;
+}
+/* ==[ ★ Modalidades de estudio ★ ]== */
+#aprender {
+  background: url(../img/modalidades/banner.jpg) top no-repeat;
+  background-size: cover;
+}
+#aprender h1 {
+  color: white;
+  font-size: 64px;
+  font-family: 'Poetsen One';
+  padding-top: 300px;
+  padding-bottom: 240px;
+}
+#modalidades-estudio {
+  background: url(../img/whoweare/back-whiten.png) top no-repeat;
+  padding-bottom: 360px;
+}
+#modalidades-estudio h2 {
+  padding-top: 50px;
+  color: #346cb3;
+  font-size: 48px;
+}
+#modalidades-estudio .col {
+  background-color: white;
+}
+#modalidades-estudio .col p {
+  padding: 0 6%;
+  font-size: 24px;
+  line-height: 115%;
+  text-align: justify;
+}
+#objetivos {
+  z-index: 10;
+  top: -280px;
+  background: url(../img/modalidades/back-blue.png) center no-repeat;
+  min-height: 1050px;
+  padding: 0 20%;
+}
+#objetivos h2 {
+  padding-top: 380px;
+  font-size: 60px;
+}
+#objetivos h2,
+#objetivos p {
+  line-height: 115%;
+  margin-bottom: 40px;
+}
+#objetivos p {
+  font-weight: 300;
+}
+#niveles {
+  background-color: white;
+  padding-top: 340px;
+  top: -360px;
+  margin-bottom: -300px;
+  z-index: 1;
+}
+#niveles h2 {
+  color: #e61674;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+#niveles p {
+  line-height: 115%;
+  margin-bottom: 100px;
+  padding: 0 11%;
+}
+#niveles .flex {
+  margin-bottom: 80px;
+}
+#niveles .flex .col {
+  width: 33.33%;
+}
+#niveles .flex .col h3 {
+  font-size: 30px;
+  font-family: 'Poetsen One';
+  color: #346cb3;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+#niveles .flex .col p {
+  font-size: 24px;
+  text-align: justify;
+}
+#niveles .flex .whiten-col {
+  width: 31.3333%;
+  background-color: #f4f2f2;
+  margin: 0 1%;
+}
+#niveles .flex .whiten-col img {
+  width: 100%;
+}
+#alojamiento {
+  padding-bottom: 160px;
+  background-color: #f4f2f2;
+}
+#alojamiento h2 {
+  color: #346cb3;
+  padding-top: 180px;
+  margin-bottom: 120px;
+}
+#alojamiento p,
+#alojamiento li {
+  line-height: 115%;
+  text-align: left;
+}
+#alojamiento .bluedot {
+  color: #346cb3;
+  font-size: 48px;
+  position: relative;
+  top: 6px;
+}
+.short {
+  padding-top: 40px !important;
+  padding-bottom: 60px !important;
+}
+#five {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+#five h2 {
+  font-size: 60px;
+}
+#five h2,
+#five p {
+  color: #346cb3;
+  font-family: 'Poetsen One';
+  text-align: center;
 }

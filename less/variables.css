@@ -14,6 +14,9 @@
 .gray {
   color: #6b6b6b;
 }
+.s36 {
+  font-size: 36px !important;
+}
 @font-face {
   font-family: 'Poetsen One';
   src: url('PoetsenOne-Regular.woff2') format('woff2'), url('PoetsenOne-Regular.woff') format('woff');
