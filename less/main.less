@@ -36,12 +36,16 @@ a{
     }
 }
 
+
+#shiny-template{
 p, li{
     font-size: @normal;
     color: @dgray;
     //line-height: 100%;
     font-family: 'Kandira PERSONAL';
-}
+    }
+    }
+    
 
 .kan{
     font-family: 'Kandira PERSONAL' !important;
@@ -101,14 +105,45 @@ h2{
     }
 }
 
+/* ==[ ★ header ★ ]== */
+
+#mk-header-1{
+    //border-top: 20px solid @blue;
+}
+
+.mk-header-holder{
+     border-top: 20px solid @blue;
+}
+
+.mk-desktop-logo, .dark-logo{
+    position: relative !important;
+    right: 100px !important;
+}
+
+.mk-sticky-logo {
+    width: 78%;
+}
 
 
 
 /* ==[ ★ home - principal ★ ]== */
 
+#slider-home{
+        h1, h2{
+        font-family: 'Poetsen One';
+        font-size: @giant;
+    }
+}
+
 #somos{
+    z-index: 1;
+    top: -180px;
+    margin-bottom: -400px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background: url(../img/whoweare/back-whiten.png) top no-repeat;
     
-    padding-bottom: 80px;
+
     
     .container{
         max-width: 2000px;
@@ -153,6 +188,8 @@ h2{
 }
 
 #testimonios{
+    position: relative;
+    z-index: 100;
     background: url(../img/home/back-addonBLUE.png) center no-repeat;
     min-height: 1050px;
     background-size: cover;
@@ -457,6 +494,88 @@ h2{
         }
         
     }
+    
+    
+    #cform{
+        min-height: 550px;
+        .caldera-grid .form-control {
+            height: 60px;
+            
+            
+            
+        }
+        
+        .caldera-grid textarea.form-control{
+            height: 300px !important;
+        }
+        
+            
+            .caldera-grid .form-control::-webkit-input-placeholder {
+                color: white;
+                font-family: 'Poetsen One';
+                font-size: 21px;
+                //background-color: @dgray;
+                
+            }
+            
+            .help-block{
+                //background-color: @dgray;
+                color: white;
+                font-family: 'Poetsen One';
+                font-size: 21px;
+            }
+            
+            .form-control{
+                background-color: #a4a2a2;
+                padding-bottom: 1px !important;
+                color: white;
+                font-family: 'Poetsen One';
+                font-size: 21px;
+                border-radius: 8px;
+            }
+            
+            .single{
+                .form-group{
+                     height: 60px !important;
+                }
+            }
+            
+            .boton-enviar{
+                
+                float: right;
+                  clear: both;
+                font-family: 'Poetsen One';
+                background-color: @blue;
+                color: white;
+                box-shadow: -5px 3px 3px black;
+                padding: 12px 30px;
+                font-size: 28px;
+            }
+        
+        
+            input.btn-form-class{
+                position: relative;
+                top: 240px;
+                float: right;
+                background-color: @blue;
+                color: white;
+                font-weight: 600;
+                font-size: @btn;
+                padding: 22px 28px;
+                border-radius: 8px;
+                 font-family: 'Poetsen One';
+                transition: 0.3s all !important; 
+                &:hover{
+                    //transform: scale(1.1) !important;
+                        transition: 0.3s all !important; 
+                    color: white;
+                    background-color: @pink;
+                }
+            }
+        
+            
+        }
+    
 }
 
 /* ==[ ★ Quienes somos - who we are ★ ]== */
@@ -739,6 +858,6 @@ h2{
 }
 
 
-
+@import "responsive";
 
 

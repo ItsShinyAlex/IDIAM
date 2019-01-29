@@ -7,10 +7,10 @@
 
 
 <section id="slider-home">
-    
+    <?php putRevSlider("home", "home.php"); ?>
 </section>
 
-<section id="somos" class="">
+<section id="somos" class="upper">
     <div class="container">
         <div class="flex">
             

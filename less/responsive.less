@@ -1,0 +1,885 @@
+@media screen and (max-width:650px){
+
+@pink: #e61674;
+@blue: #346cb3;
+@dgray: #4f4f4f;
+@whiten: #f4f2f2;
+@gray: #6b6b6b;
+
+@giant: 26px;
+@big: 60px; 
+@btn: 30px;
+@s48: 48px;
+@s36: 36px;
+@normal: 18px;
+@small: 24px;
+
+.s36{
+    font-size: @s36 !important;
+}
+
+a{
+    transition: 0.3s all;
+    &:hover{
+        //color: ;
+        transition: 0.3s all;
+    }
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    &.center-h {
+        justify-content: center;
+        text-align: center;
+    }
+
+    &.nowrap {
+        flex-wrap: nowrap;
+    }
+
+    .col {
+        flex-flow: column; //added recently
+        
+        width: 50%;    
+        padding: 0px;
+        box-sizing: border-box;
+        &.align-self-center {
+            align-self: center;
+        }
+        &.align-self-end {
+            align-self: flex-end;
+        }
+    }
+}
+
+
+#shiny-template{
+p, li{
+    font-size: @normal;
+    color: @dgray;
+    //line-height: 100%;
+    font-family: 'Kandira PERSONAL';
+    }
+    }
+    
+
+.kan{
+    font-family: 'Kandira PERSONAL' !important;
+}
+
+.posten{
+    font-family: 'Poetsen One' !important;
+}
+
+.shadow{
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.fcentered{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    flex-direction: column;
+}
+
+.center{
+    text-align: center;
+}
+
+h2{
+    font-family: 'Poetsen One';
+    font-size: @s48;
+}
+
+.container{
+        max-width: 1250px;
+        margin: auto;
+}
+
+.upper{
+     position: relative;
+        top: -120px;
+        margin-bottom: -120px;
+}
+
+.btn{
+    
+    background-color: @pink;
+    color: white;
+    font-weight: 600;
+    font-size: @btn;
+    padding: 22px 28px;
+    border-radius: 8px;
+     font-family: 'Poetsen One';
+    transition: 0.3s all !important; 
+    &:hover{
+        //transform: scale(1.1) !important;
+            transition: 0.3s all !important; 
+        color: white;
+        background-color: @blue;
+    }
+}
+
+/* ==[ ★ header ★ ]== */
+
+    .header-logo a img{
+        max-width: 300px;
+    }
+    
+    .mk-nav-responsive-link{
+        background-color: @blue;
+        //border-right: 90px solid @blue;
+
+    }
+    
+    .mk-css-icon-menu-line-1, .mk-css-icon-menu-line-2, .mk-css-icon-menu-line-3{
+        background-color: white !important;
+        font-size: 24px;
+    }
+    
+
+
+
+
+/* ==[ ★ home - principal ★ ]== */
+
+#slider-home{
+        h1, h2{
+        font-family: 'Poetsen One';
+        font-size: @giant;
+    }
+}
+
+#somos{
+    z-index: 1;
+    top: -180px;
+    margin-bottom: -400px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background: url(../img/whoweare/back-whiten.png) top no-repeat;
+    
+
+    
+    .container{
+        max-width: 2000px;
+    }
+    
+    .col{
+        padding: 0 20px
+    }
+    
+    h1{
+        color: @blue;
+        margin-bottom: 80px;
+    }
+    
+    p{
+        text-align: justify;
+        text-align-last: left;
+        margin-bottom: 90px;
+        line-height: 115%;
+    }
+    
+  
+    
+    .txt{
+        
+        padding-left: 7%;
+        padding-right: 2%;
+        
+          .btn{
+        
+        }
+    }
+    
+    .oneimg{
+        padding: 0;
+        img{
+            width:  105%;
+        }
+    }
+    
+    
+}
+
+#testimonios{
+    position: relative;
+    z-index: 100;
+    background: url(../img/home/back-addonBLUE.png) center no-repeat;
+    min-height: 1050px;
+    background-size: cover;
+    
+    h2,h3,p{
+        color: white;
+    }
+    
+    h2{
+        padding-top: 260px;
+        padding-bottom: 100px;
+        font-size: @big;
+    }
+    
+    h3{
+        font-size: @s36;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        font-family: 'Poetsen One';
+    }
+    
+    p{
+        font-size: @small;
+        line-height: 115%;
+        padding: 0 10%;
+        font-weight: 300;
+    }
+    
+    .col{
+        padding: 0 30px;
+        .fcentered{
+            width: 100% !important;
+        }
+    }
+    
+    
+}
+
+#modalidades-estudio, #modalidades{
+    padding-bottom: 80px;
+    padding-top: 120px;
+    h2{
+        color: @blue;
+    }
+    
+
+    
+    .col{
+        width: 42%;
+        margin: 0 4%;
+        background-color: @whiten;
+        
+        img{
+            width: 100%;
+        }
+        
+        .pink-sqrt{
+              margin-bottom: 40px;
+            background-color: @pink;
+            
+              h3{
+                      padding: 20px;
+                    text-align: center;
+                    color: white;
+                    font-family: 'Kandira PERSONAL';
+                    font-size: @s36;
+                }
+            
+            
+        }
+        
+      
+        
+        p{
+            padding: 10px 11%;
+            text-align: center;
+            font-family: 'Poetsen One';
+            font-size: @normal;
+        }
+        
+ 
+    }
+    
+    .flex{
+        padding-top: 80px;
+        
+    
+    }
+    
+        .btns{
+            padding-top: 0;
+            .col{
+                background-color: white;
+                min-height: 210px;
+
+                a{
+                    text-align: center;
+                }
+                
+                .btn{
+    
+                        background-color: @blue;
+
+                        &:hover{
+                            transform: scale(1.1) !important;
+                                transition: 0.3s all !important; 
+                            color: white;
+                            background-color: @pink;
+                        }
+                    }
+            }
+        }
+    
+    
+    .posten{
+        margin-top: 60px;
+        font-size: @s36;
+        color: #5c5c5c;
+        text-align: center;
+        line-height: 120%;
+    }
+    
+}
+
+#valores, #ventajas{
+    background-color: @whiten;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    h2{
+        font-family: 'Poetsen One';
+        padding-bottom: 120px;
+    }
+    
+    p{
+        font-family: 'Poetsen One';
+        padding: 10px 22%;
+        color: @gray;
+        font-weight: 100;
+        line-height: 115%;
+ 
+    }
+
+    
+    .pad-h{
+        padding: 0 15%;
+    }
+    
+    .col{
+        flex-direction: column !important;
+        flex-flow: column !important;
+        margin: 20px 0%;
+        img{
+            width: 50%;
+        }
+        width: 50%;
+    }
+    
+    .rd{
+        width: 25%;
+        margin: 20px 4%;
+        p{
+            padding: 10px 5%;
+            line-height: 115%;
+        }
+    }
+    
+
+}
+
+#howtopay, #galeria{
+    
+    background-color: @blue;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    h2, p{
+        text-align: center;
+        color: @whiten;
+        line-height: 115%;
+    }
+    
+    h2{
+        
+        font-size: @big;
+        padding-bottom: 20px;
+        font-weight: 500;
+    }
+    
+    p{
+        font-size: @normal;
+        font-family: 'Poetsen One';
+        font-weight: 100;
+    }
+    
+}
+
+
+
+#contacto{
+    background: url(../img/back-gray.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+    
+    padding-bottom: 120px;
+    
+    h2, p, a{
+        color: white;
+        line-height: 110%;
+    }
+    
+    .flex{
+        .c-col, #mapa{
+            padding: 0 30px;
+        }
+    }
+    
+    #mapa{
+        
+        .map{
+            padding-bottom: 60px;
+            iframe{
+                width: 90%;
+                max-height: 360px;
+            }
+            
+        }
+        
+        .nomar{
+            margin: 0;
+        }
+        
+        img{
+            margin-bottom: 50px;
+        }
+        
+        
+        p{
+            font-family: 'Poetsen One';
+            font-size: @normal;
+            margin-bottom: 0;
+        }
+        
+        .s{
+            font-size: @small;
+            text-align: left;
+            margin-top: 3px;
+        }
+        
+        
+          #phone{
+              margin-bottom: 20px;
+                max-height: 50px;
+              img{
+                  margin-bottom: 0;
+                  top: -10px;
+                  position: relative;
+              }
+            }
+        
+        .icons-bot{
+            
+            margin-bottom: 20px;
+            
+          
+            
+            .icon{
+               width: 15%; 
+            }
+            
+            .txt{
+                width: 85%;
+            }
+        }
+    }
+    
+    
+    
+    .c-col{
+        h2{
+            font-size: @big;
+            padding-bottom: 80px;
+            margin-left: 5px;
+        }
+        
+        p{
+             font-family: 'Kandira PERSONAL';
+            font-size: @small;
+            font-weight: 500;
+        }
+        
+        #followus{
+            .col{
+                width: 15%;
+                
+                img{
+                    transition: 0.3s all;
+                    &:hover{
+                        transition: 0.3s all;
+                        transform: scale(1.1) !important;
+                    }
+                }
+            }
+        }
+        
+    }
+    
+    
+    #cform{
+        min-height: 550px;
+        .caldera-grid .form-control {
+            height: 60px;
+            
+            
+            
+        }
+        
+        .caldera-grid textarea.form-control{
+            height: 300px !important;
+        }
+        
+            
+            .caldera-grid .form-control::-webkit-input-placeholder {
+                color: white;
+                font-family: 'Poetsen One';
+                font-size: 21px;
+                //background-color: @dgray;
+                
+            }
+            
+            .help-block{
+                //background-color: @dgray;
+                color: white;
+                font-family: 'Poetsen One';
+                font-size: 21px;
+            }
+            
+            .form-control{
+                background-color: #a4a2a2;
+                padding-bottom: 1px !important;
+                color: white;
+                font-family: 'Poetsen One';
+                font-size: 21px;
+                border-radius: 8px;
+            }
+            
+            .single{
+                .form-group{
+                     height: 60px !important;
+                }
+            }
+            
+            .boton-enviar{
+                
+                float: right;
+                  clear: both;
+                font-family: 'Poetsen One';
+                background-color: @blue;
+                color: white;
+                box-shadow: -5px 3px 3px black;
+                padding: 12px 30px;
+                font-size: 28px;
+            }
+        
+        
+            input.btn-form-class{
+                position: relative;
+                top: 240px;
+                float: right;
+                background-color: @blue;
+                color: white;
+                font-weight: 600;
+                font-size: @btn;
+                padding: 22px 28px;
+                border-radius: 8px;
+                 font-family: 'Poetsen One';
+                transition: 0.3s all !important; 
+                &:hover{
+                    //transform: scale(1.1) !important;
+                        transition: 0.3s all !important; 
+                    color: white;
+                    background-color: @pink;
+                }
+            }
+        
+            
+        }
+    
+}
+
+/* ==[ ★ Quienes somos - who we are ★ ]== */
+
+#somoswho{
+    background: url(../img/whoweare/resback-banner.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 850px;
+    
+    h1{
+
+        font-size: @giant;
+        padding: 380px 10px 0;
+
+        
+        margin-bottom: 85px;
+    }
+}
+
+#idiam{
+  
+    background: url(../img/whoweare/back-whiten.png) top no-repeat;
+    min-height: 1100px;
+    
+    .container{
+        margin: 0 10%;
+    }
+    
+    img{
+        width: 100%;
+        margin-top: 180px;
+        margin-bottom: 40px;
+    }
+    
+    p{
+        margin: 0;
+        margin-bottom: 30px;
+        text-align: justify;
+        text-align-last: center;
+        
+    }
+    
+    p:last-of-type{
+        margin-bottom: 40px;
+    }
+    
+    
+}
+
+.whitetxt{
+    h1,h2,h3,h4,p{
+        color: white;
+    }
+}
+
+.pt{
+    padding-top: 30px;
+}
+
+#mision{
+ 
+    background: url(../img/whoweare/back-pink.png) center no-repeat;
+    min-height: 1340px;
+    padding-top: 550px;
+    top: -666px;
+    margin-bottom: -1111px;
+    h2{
+        font-size: @big;
+        margin-bottom: 40px;
+    }
+    
+    
+    p{
+        text-align: justify;
+        line-height: 110%;
+    }
+    
+    #mission{
+        position: relative;
+        bottom: 69px;
+        padding-left: 10%;
+    }
+    
+    .col{
+        padding: 0 2%;
+        
+        img{
+            width: 95%;
+        }
+        
+        #students{
+            position: relative;
+            right: 10%;
+            width: 110%;
+        }
+    }
+    
+}
+
+#valores{
+    padding-top: 280px;
+    
+    
+    .fcentered{
+
+    }
+    
+    img{
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* ==[ ★ Modalidades de estudio ★ ]== */
+
+#aprender{
+    background: url(../img/modalidades/banner.jpg) top no-repeat;
+    background-size: cover;
+    h1{
+        color: white;
+        font-size: @giant;
+        font-family: 'Poetsen One';
+        padding-top: 300px;
+        
+        padding-bottom: 240px;
+    }
+}
+
+#modalidades-estudio{
+    background: url(../img/whoweare/back-whiten.png) top no-repeat;
+    h2{
+        padding-top: 50px;
+        color: @blue;
+        font-size: @s48;
+    }
+    
+    
+    .col{
+         background-color: white;
+        p{
+            padding: 0 6%;
+            font-size: @small;
+            line-height: 115%;
+            text-align: justify;
+        }
+    }
+    
+    padding-bottom: 360px;
+}
+
+
+#objetivos{
+     z-index: 10;
+    top: -280px;
+    background: url(../img/modalidades/back-blue.png) center no-repeat;
+    min-height: 1050px;
+    padding: 0 20%;
+    h2{
+        padding-top: 380px;
+        font-size: @big;
+        
+    }
+    
+    h2,p{
+        line-height: 115%;
+        margin-bottom: 40px;
+        
+    }
+    
+    p{
+        font-weight: 300;
+    }
+    
+    
+}
+
+#niveles{
+    background-color: white;
+    padding-top: 340px;
+    h2{
+        color: @pink;
+        font-size: @s48;
+        margin-bottom: 40px;
+    }
+    
+    top: -360px;
+    margin-bottom: -300px;
+    z-index: 1;
+    
+    p{
+        line-height: 115%;
+        margin-bottom: 100px;
+        padding: 0 11%;
+    }
+    
+
+    
+    .flex{
+        margin-bottom: 80px;
+        .col{
+            width: 33.33%;
+            
+            h3{
+                font-size: @normal;
+                font-family: 'Poetsen One';
+                color: @blue;
+                padding-top: 20px;
+                padding-bottom: 30px;
+            }
+            
+            p{
+                font-size: @small;
+                text-align: justify;
+            }
+            
+        }
+        
+        
+        
+        
+        
+            .whiten-col{
+                width: 31.3333%;
+                background-color: @whiten;
+                img{
+                    width: 100%;
+
+                }
+                margin: 0 1%;
+            }
+        
+        
+        
+    }
+    
+}
+
+#alojamiento{
+    
+    padding-bottom: 160px;
+    background-color: @whiten;
+    h2{
+        color: @blue;
+        padding-top: 180px;
+        margin-bottom: 120px;
+    }
+    
+    p, li{
+        line-height: 115%;
+        text-align: left;
+    }
+    
+    .bluedot{
+ 
+          color: @blue; 
+        font-size: @s48;
+        position: relative;
+        top: 6px;
+    }
+    
+
+}
+
+.short{
+    padding-top: 40px !important;
+    padding-bottom: 60px !important;
+}
+
+#five{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    h2{
+        font-size: @big;
+    }
+    
+    h2,p{
+        color: @blue;
+        font-family: 'Poetsen One';
+        text-align: center;
+    }
+}
+
+
+}
+
+
