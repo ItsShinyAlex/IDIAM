@@ -38,13 +38,18 @@ a{
 
 
 #shiny-template{
+    
+    .onlymov{
+        display: none;
+    }
+    
 p, li{
     font-size: @normal;
     color: @dgray;
     //line-height: 100%;
     font-family: 'Kandira PERSONAL';
     }
-    }
+   
     
 
 .kan{
@@ -130,8 +135,8 @@ h2{
 
 #slider-home{
         h1, h2{
-        font-family: 'Poetsen One';
-        font-size: @giant;
+          font-family: 'Poetsen One' !important;
+                    font-size: @giant !important;
     }
 }
 
@@ -623,7 +628,7 @@ h2{
 
 .whitetxt{
     h1,h2,h3,h4,p{
-        color: white;
+        color: white !important;
     }
 }
 
@@ -857,6 +862,7 @@ h2{
     }
 }
 
+     }
 
 @import "responsive";
 

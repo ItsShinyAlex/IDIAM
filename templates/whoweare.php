@@ -72,8 +72,8 @@
         
         <div class="flex">
            
-           <div class="col imgcol">
-                <img id="students" src="<?php echo get_stylesheet_directory_uri(); ?>/img/whoweare/happy-stdents.jpg" alt="Diccionario de la lengua española">
+           <div class="col imgcol mov-hide">
+                <img id="students" src="<?php echo get_stylesheet_directory_uri(); ?>/img/whoweare/happy-stdents.jpg" alt="Estudiantes felices">
             </div>
             
             <div class="col txt">
@@ -86,8 +86,13 @@
                     Ser la mejor opción para estudiar español, fortaleciendo y ampliando lazos de comunicación y hermandad.
                 </p>
                 
+                
+                
             </div>
             
+            <div class="col imgcol onlymov">
+                <img id="student" src="<?php echo get_stylesheet_directory_uri(); ?>/img/whoweare/happy-stdents.jpg" alt="Estudiantes felices">
+            </div>
             
             
         </div>

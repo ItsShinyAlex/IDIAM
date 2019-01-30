@@ -7,16 +7,20 @@
 @gray: #6b6b6b;
 
 @giant: 26px;
-@big: 60px; 
-@btn: 30px;
-@s48: 48px;
-@s36: 36px;
+@big: 24px; 
+@btn: 28px;
+@s48: 22px;
+@s36: 20px;
 @normal: 18px;
-@small: 24px;
+@small: 15px;
 
 .s36{
     font-size: @s36 !important;
 }
+    
+    .mov-hide{
+    display: none !important;
+    }
 
 a{
     transition: 0.3s all;
@@ -42,7 +46,7 @@ a{
     .col {
         flex-flow: column; //added recently
         
-        width: 50%;    
+        width: 100%;    
         padding: 0px;
         box-sizing: border-box;
         &.align-self-center {
@@ -56,13 +60,19 @@ a{
 
 
 #shiny-template{
+    
+    .onlymov{
+        display: flex;
+    }
+    
+    
 p, li{
     font-size: @normal;
     color: @dgray;
     //line-height: 100%;
     font-family: 'Kandira PERSONAL';
     }
-    }
+  
     
 
 .kan{
@@ -101,8 +111,6 @@ h2{
 
 .upper{
      position: relative;
-        top: -120px;
-        margin-bottom: -120px;
 }
 
 .btn{
@@ -122,6 +130,8 @@ h2{
         background-color: @blue;
     }
 }
+    
+
 
 /* ==[ ★ header ★ ]== */
 
@@ -147,11 +157,31 @@ h2{
 /* ==[ ★ home - principal ★ ]== */
 
 #slider-home{
-        h1, h2{
-        font-family: 'Poetsen One';
-        font-size: @giant;
+    
+    
+    #rev_slider_2_2_wrapper{
+        
+        
+        #slide-2-layer-1{
+                  h1, h2{
+                    font-family: 'Poetsen One' !important;
+                    font-size: @giant !important;
+                      text-align: center !important;
+                      margin: auto !important;
+            }
+            
+            .pink{
+                font-size: 26px !important;
+            }
+        }
+        
+          
+        
+        
     }
+
 }
+
 
 #somos{
     z-index: 1;
@@ -165,6 +195,7 @@ h2{
     
     .container{
         max-width: 2000px;
+        text-align: center;
     }
     
     .col{
@@ -172,14 +203,15 @@ h2{
     }
     
     h1{
-        color: @blue;
-        margin-bottom: 80px;
+
+        margin-bottom: 30px;
+        text-align: center;
     }
     
     p{
         text-align: justify;
-        text-align-last: left;
-        margin-bottom: 90px;
+        text-align-last: center;
+        margin-bottom: 70px;
         line-height: 115%;
     }
     
@@ -219,14 +251,17 @@ h2{
     h2{
         padding-top: 260px;
         padding-bottom: 100px;
-        font-size: @big;
+        font-size: @giant;
     }
     
     h3{
         font-size: @s36;
         padding-top: 20px;
-        padding-bottom: 40px;
-        font-family: 'Poetsen One';
+        padding-bottom: 10px;
+    }
+    
+    .col{
+        margin-bottom: 40px;
     }
     
     p{
@@ -250,29 +285,27 @@ h2{
     padding-bottom: 80px;
     padding-top: 120px;
     h2{
-        color: @blue;
+
     }
     
 
     
     .col{
-        width: 42%;
-        margin: 0 4%;
-        background-color: @whiten;
+        width: 100%;
+        margin: 0 10% 40px;
+
         
         img{
-            width: 100%;
+
         }
         
         .pink-sqrt{
               margin-bottom: 40px;
-            background-color: @pink;
+
             
               h3{
                       padding: 20px;
                     text-align: center;
-                    color: white;
-                    font-family: 'Kandira PERSONAL';
                     font-size: @s36;
                 }
             
@@ -283,8 +316,7 @@ h2{
         
         p{
             padding: 10px 11%;
-            text-align: center;
-            font-family: 'Poetsen One';
+
             font-size: @normal;
         }
         
@@ -301,7 +333,7 @@ h2{
             padding-top: 0;
             .col{
                 background-color: white;
-                min-height: 210px;
+                min-height: 120px;
 
                 a{
                     text-align: center;
@@ -323,11 +355,12 @@ h2{
     
     
     .posten{
-        margin-top: 60px;
+        margin-top: 0px;
         font-size: @s36;
         color: #5c5c5c;
         text-align: center;
         line-height: 120%;
+        padding: 0 3%;
     }
     
 }
@@ -338,10 +371,11 @@ h2{
     padding-bottom: 80px;
     h2{
         font-family: 'Poetsen One';
-        padding-bottom: 120px;
+        padding-bottom: 60px;
     }
     
     p{
+        font-size: 14px;
         font-family: 'Poetsen One';
         padding: 10px 22%;
         color: @gray;
@@ -369,7 +403,7 @@ h2{
         width: 25%;
         margin: 20px 4%;
         p{
-            padding: 10px 5%;
+            padding: 10px 1%;
             line-height: 115%;
         }
     }
@@ -381,11 +415,13 @@ h2{
     
     background-color: @blue;
     padding-top: 80px;
-    padding-bottom: 200px;
+    padding-bottom: 80px;
     h2, p{
-        text-align: center;
+        text-align: justify;
+        text-align-last: center;
         color: @whiten;
         line-height: 115%;
+        padding: 0 10%;
     }
     
     h2{
@@ -408,13 +444,21 @@ h2{
 #contacto{
     background: url(../img/back-gray.jpg) center no-repeat;
     background-size: cover;
-    padding-top: 140px;
+    padding-top: 80px;
     
     padding-bottom: 120px;
     
     h2, p, a{
         color: white;
         line-height: 110%;
+    }
+    
+    h2{
+        margin-left: 0 ;
+        text-align: center;
+        padding-bottom: 0px;
+        padding-top: 40px;
+        font-size: 50px !important;
     }
     
     .flex{
@@ -426,7 +470,7 @@ h2{
     #mapa{
         
         .map{
-            padding-bottom: 60px;
+            padding-bottom: 30px;
             iframe{
                 width: 90%;
                 max-height: 360px;
@@ -439,7 +483,7 @@ h2{
         }
         
         img{
-            margin-bottom: 50px;
+            margin-bottom: 35px;
         }
         
         
@@ -450,8 +494,8 @@ h2{
         }
         
         .s{
-            font-size: @small;
-            text-align: left;
+            font-size: @normal;
+            text-align: center;
             margin-top: 3px;
         }
         
@@ -466,29 +510,53 @@ h2{
               }
             }
         
+        
+        
+        
         .icons-bot{
             
-            margin-bottom: 20px;
+            margin-bottom: 0px;
             
           
             
             .icon{
-               width: 15%; 
+               width: 21%; 
             }
             
             .txt{
-                width: 85%;
+                width: 79%;
+            }
+            
+            .fcentered{
+                p{
+                     position: relative;
+                    bottom: 20px;
+                }
+            }
+        }
+        
+        .mov-gmail{
+             .icon{
+               width: 100%;
+                 margin-bottom: 20px;
+            }
+            
+            .txt{
+                text-align: center;
+                width: 100%;
             }
         }
     }
     
-    
+    .pad-top{
+        text-align: center;
+    }
     
     .c-col{
         h2{
             font-size: @big;
-            padding-bottom: 80px;
-            margin-left: 5px;
+            padding-bottom: 30px;
+            margin-left: 1px;
         }
         
         p{
@@ -499,7 +567,7 @@ h2{
         
         #followus{
             .col{
-                width: 15%;
+                width: 20%;
                 
                 img{
                     transition: 0.3s all;
@@ -616,7 +684,7 @@ h2{
 #idiam{
   
     background: url(../img/whoweare/back-whiten.png) top no-repeat;
-    min-height: 1100px;
+    min-height: 920px;
     
     .container{
         margin: 0 10%;
@@ -645,7 +713,7 @@ h2{
 
 .whitetxt{
     h1,h2,h3,h4,p{
-        color: white;
+        color: white !important;
     }
 }
 
@@ -656,38 +724,48 @@ h2{
 #mision{
  
     background: url(../img/whoweare/back-pink.png) center no-repeat;
-    min-height: 1340px;
-    padding-top: 550px;
-    top: -666px;
-    margin-bottom: -1111px;
+    background-size: cover;
+    min-height: 1040px;
+    padding-top: 350px;
+    top: -246px !important;
+    margin-bottom: -380px !important;
+    position: relative;
+    
+    
+    .container{
+        padding: 0 10%;
+    }
+    
     h2{
-        font-size: @big;
-        margin-bottom: 40px;
+        font-size: @giant;
+        margin-bottom: 20px;
+        text-align: center;
     }
     
     
     p{
         text-align: justify;
         line-height: 110%;
+        text-align-last: center;
+        margin-bottom: 0;
     }
     
     #mission{
         position: relative;
         bottom: 69px;
-        padding-left: 10%;
+        padding-left: 0%;
     }
     
     .col{
-        padding: 0 2%;
+        padding: 0;
         
         img{
-            width: 95%;
+            width: 100% !important;
+            margin-bottom: 40px;
         }
         
-        #students{
-            position: relative;
-            right: 10%;
-            width: 110%;
+        #student{
+            margin-top: 60px;
         }
     }
     
@@ -727,6 +805,11 @@ h2{
 
 #modalidades-estudio{
     background: url(../img/whoweare/back-whiten.png) top no-repeat;
+
+    //background: linear-gradient(to top, transparent 50%,  @whiten 50%);
+    background-color: @whiten;
+
+    
     h2{
         padding-top: 50px;
         color: @blue;
@@ -744,13 +827,13 @@ h2{
         }
     }
     
-    padding-bottom: 360px;
+    padding-bottom: 460px;
 }
 
 
 #objetivos{
      z-index: 10;
-    top: -280px;
+    top: -400px;
     background: url(../img/modalidades/back-blue.png) center no-repeat;
     min-height: 1050px;
     padding: 0 20%;
@@ -775,7 +858,7 @@ h2{
 
 #niveles{
     background-color: white;
-    padding-top: 340px;
+    padding-top: 140px;
     h2{
         color: @pink;
         font-size: @s48;
@@ -795,9 +878,10 @@ h2{
 
     
     .flex{
-        margin-bottom: 80px;
+        margin-bottom: 20px;
         .col{
-            width: 33.33%;
+            margin-bottom: 40px;
+            width: 100%;
             
             h3{
                 font-size: @normal;
@@ -819,13 +903,14 @@ h2{
         
         
             .whiten-col{
-                width: 31.3333%;
+                margin-bottom: 40px;
+                width: 90%;
                 background-color: @whiten;
                 img{
                     width: 100%;
 
                 }
-                margin: 0 1%;
+                margin: 0 5%;
             }
         
         
@@ -836,12 +921,20 @@ h2{
 
 #alojamiento{
     
-    padding-bottom: 160px;
+    padding-bottom: 40px;
     background-color: @whiten;
     h2{
         color: @blue;
-        padding-top: 180px;
-        margin-bottom: 120px;
+        padding-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .container{
+        padding: 0 5%;
+        
+        img{
+            width: 100%; 
+        }
     }
     
     p, li{
@@ -882,4 +975,4 @@ h2{
 
 }
 
-
+}

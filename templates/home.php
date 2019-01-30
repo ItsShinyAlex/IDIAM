@@ -6,8 +6,12 @@
 ?>
 
 
-<section id="slider-home">
+<section id="slider-home" class="mov-hide">
     <?php putRevSlider("home", "home.php"); ?>
+</section>
+
+<section id="slider-home" class="onlymov">
+    <?php putRevSlider("home-mov", "home.php"); ?>
 </section>
 
 <section id="somos" class="upper">
@@ -42,7 +46,7 @@
             
             
             
-            <div class="col oneimg">
+            <div class="col mov-hide oneimg">
                 
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/worldUtiles.png" alt="útiles escolares">
                 
@@ -52,7 +56,7 @@
     </div>
 </section>
 
-<section id="testimonios" class="">
+<section id= "testimonios" class="">
     <div class="container">
        
        <div class="center">
@@ -159,7 +163,7 @@
               
             </div>
             
-             <div class="col fcentered">
+             <div class="col fcentered mov-hide">
                
                <div class="faux">
                    
@@ -299,7 +303,7 @@
                 </div>
                 
                 
-                 <div class="flex icons-bot">
+                 <div class="flex icons-bot mov-gmail">
                     <div class="col icon fcentered ">
                         <img class="nomar" src="<?php echo get_stylesheet_directory_uri(); ?>/img/002-gmail.png" alt="Gmail">
                     </div>

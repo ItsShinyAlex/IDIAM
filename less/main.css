@@ -136,44 +136,53 @@ a:hover {
 .flex .col.align-self-end {
   align-self: flex-end;
 }
+#shiny-template {
+  /* ==[ ★ header ★ ]== */
+  /* ==[ ★ home - principal ★ ]== */
+  /* ==[ ★ Quienes somos - who we are ★ ]== */
+  /* ==[ ★ Modalidades de estudio ★ ]== */
+}
+#shiny-template .onlymov {
+  display: none;
+}
 #shiny-template p,
 #shiny-template li {
   font-size: 30px;
   color: #4f4f4f;
   font-family: 'Kandira PERSONAL';
 }
-.kan {
+#shiny-template .kan {
   font-family: 'Kandira PERSONAL' !important;
 }
-.posten {
+#shiny-template .posten {
   font-family: 'Poetsen One' !important;
 }
-.shadow {
+#shiny-template .shadow {
   text-shadow: 2px 2px 8px #000000;
 }
-.fcentered {
+#shiny-template .fcentered {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.center {
+#shiny-template .center {
   text-align: center;
 }
-h2 {
+#shiny-template h2 {
   font-family: 'Poetsen One';
   font-size: 48px;
 }
-.container {
+#shiny-template .container {
   max-width: 1250px;
   margin: auto;
 }
-.upper {
+#shiny-template .upper {
   position: relative;
   top: -120px;
   margin-bottom: -120px;
 }
-.btn {
+#shiny-template .btn {
   background-color: #e61674;
   color: white;
   font-weight: 600;
@@ -183,30 +192,28 @@ h2 {
   font-family: 'Poetsen One';
   transition: 0.3s all !important;
 }
-.btn:hover {
+#shiny-template .btn:hover {
   transition: 0.3s all !important;
   color: white;
   background-color: #346cb3;
 }
-/* ==[ ★ header ★ ]== */
-.mk-header-holder {
+#shiny-template .mk-header-holder {
   border-top: 20px solid #346cb3;
 }
-.mk-desktop-logo,
-.dark-logo {
+#shiny-template .mk-desktop-logo,
+#shiny-template .dark-logo {
   position: relative !important;
   right: 100px !important;
 }
-.mk-sticky-logo {
+#shiny-template .mk-sticky-logo {
   width: 78%;
 }
-/* ==[ ★ home - principal ★ ]== */
-#slider-home h1,
-#slider-home h2 {
-  font-family: 'Poetsen One';
-  font-size: 64px;
+#shiny-template #slider-home h1,
+#shiny-template #slider-home h2 {
+  font-family: 'Poetsen One' !important;
+  font-size: 64px !important;
 }
-#somos {
+#shiny-template #somos {
   z-index: 1;
   top: -180px;
   margin-bottom: -400px;
@@ -214,309 +221,309 @@ h2 {
   padding-bottom: 300px;
   background: url(../img/whoweare/back-whiten.png) top no-repeat;
 }
-#somos .container {
+#shiny-template #somos .container {
   max-width: 2000px;
 }
-#somos .col {
+#shiny-template #somos .col {
   padding: 0 20px;
 }
-#somos h1 {
+#shiny-template #somos h1 {
   color: #346cb3;
   margin-bottom: 80px;
 }
-#somos p {
+#shiny-template #somos p {
   text-align: justify;
   text-align-last: left;
   margin-bottom: 90px;
   line-height: 115%;
 }
-#somos .txt {
+#shiny-template #somos .txt {
   padding-left: 7%;
   padding-right: 2%;
 }
-#somos .oneimg {
+#shiny-template #somos .oneimg {
   padding: 0;
 }
-#somos .oneimg img {
+#shiny-template #somos .oneimg img {
   width: 105%;
 }
-#testimonios {
+#shiny-template #testimonios {
   position: relative;
   z-index: 100;
   background: url(../img/home/back-addonBLUE.png) center no-repeat;
   min-height: 1050px;
   background-size: cover;
 }
-#testimonios h2,
-#testimonios h3,
-#testimonios p {
+#shiny-template #testimonios h2,
+#shiny-template #testimonios h3,
+#shiny-template #testimonios p {
   color: white;
 }
-#testimonios h2 {
+#shiny-template #testimonios h2 {
   padding-top: 260px;
   padding-bottom: 100px;
   font-size: 60px;
 }
-#testimonios h3 {
+#shiny-template #testimonios h3 {
   font-size: 36px;
   padding-top: 20px;
   padding-bottom: 40px;
   font-family: 'Poetsen One';
 }
-#testimonios p {
+#shiny-template #testimonios p {
   font-size: 24px;
   line-height: 115%;
   padding: 0 10%;
   font-weight: 300;
 }
-#testimonios .col {
+#shiny-template #testimonios .col {
   padding: 0 30px;
 }
-#testimonios .col .fcentered {
+#shiny-template #testimonios .col .fcentered {
   width: 100% !important;
 }
-#modalidades-estudio,
-#modalidades {
+#shiny-template #modalidades-estudio,
+#shiny-template #modalidades {
   padding-bottom: 80px;
   padding-top: 120px;
 }
-#modalidades-estudio h2,
-#modalidades h2 {
+#shiny-template #modalidades-estudio h2,
+#shiny-template #modalidades h2 {
   color: #346cb3;
 }
-#modalidades-estudio .col,
-#modalidades .col {
+#shiny-template #modalidades-estudio .col,
+#shiny-template #modalidades .col {
   width: 42%;
   margin: 0 4%;
   background-color: #f4f2f2;
 }
-#modalidades-estudio .col img,
-#modalidades .col img {
+#shiny-template #modalidades-estudio .col img,
+#shiny-template #modalidades .col img {
   width: 100%;
 }
-#modalidades-estudio .col .pink-sqrt,
-#modalidades .col .pink-sqrt {
+#shiny-template #modalidades-estudio .col .pink-sqrt,
+#shiny-template #modalidades .col .pink-sqrt {
   margin-bottom: 40px;
   background-color: #e61674;
 }
-#modalidades-estudio .col .pink-sqrt h3,
-#modalidades .col .pink-sqrt h3 {
+#shiny-template #modalidades-estudio .col .pink-sqrt h3,
+#shiny-template #modalidades .col .pink-sqrt h3 {
   padding: 20px;
   text-align: center;
   color: white;
   font-family: 'Kandira PERSONAL';
   font-size: 36px;
 }
-#modalidades-estudio .col p,
-#modalidades .col p {
+#shiny-template #modalidades-estudio .col p,
+#shiny-template #modalidades .col p {
   padding: 10px 11%;
   text-align: center;
   font-family: 'Poetsen One';
   font-size: 30px;
 }
-#modalidades-estudio .flex,
-#modalidades .flex {
+#shiny-template #modalidades-estudio .flex,
+#shiny-template #modalidades .flex {
   padding-top: 80px;
 }
-#modalidades-estudio .btns,
-#modalidades .btns {
+#shiny-template #modalidades-estudio .btns,
+#shiny-template #modalidades .btns {
   padding-top: 0;
 }
-#modalidades-estudio .btns .col,
-#modalidades .btns .col {
+#shiny-template #modalidades-estudio .btns .col,
+#shiny-template #modalidades .btns .col {
   background-color: white;
   min-height: 210px;
 }
-#modalidades-estudio .btns .col a,
-#modalidades .btns .col a {
+#shiny-template #modalidades-estudio .btns .col a,
+#shiny-template #modalidades .btns .col a {
   text-align: center;
 }
-#modalidades-estudio .btns .col .btn,
-#modalidades .btns .col .btn {
+#shiny-template #modalidades-estudio .btns .col .btn,
+#shiny-template #modalidades .btns .col .btn {
   background-color: #346cb3;
 }
-#modalidades-estudio .btns .col .btn:hover,
-#modalidades .btns .col .btn:hover {
+#shiny-template #modalidades-estudio .btns .col .btn:hover,
+#shiny-template #modalidades .btns .col .btn:hover {
   transform: scale(1.1) !important;
   transition: 0.3s all !important;
   color: white;
   background-color: #e61674;
 }
-#modalidades-estudio .posten,
-#modalidades .posten {
+#shiny-template #modalidades-estudio .posten,
+#shiny-template #modalidades .posten {
   margin-top: 60px;
   font-size: 36px;
   color: #5c5c5c;
   text-align: center;
   line-height: 120%;
 }
-#valores,
-#ventajas {
+#shiny-template #valores,
+#shiny-template #ventajas {
   background-color: #f4f2f2;
   padding-top: 80px;
   padding-bottom: 80px;
 }
-#valores h2,
-#ventajas h2 {
+#shiny-template #valores h2,
+#shiny-template #ventajas h2 {
   font-family: 'Poetsen One';
   padding-bottom: 120px;
 }
-#valores p,
-#ventajas p {
+#shiny-template #valores p,
+#shiny-template #ventajas p {
   font-family: 'Poetsen One';
   padding: 10px 22%;
   color: #6b6b6b;
   font-weight: 100;
   line-height: 115%;
 }
-#valores .pad-h,
-#ventajas .pad-h {
+#shiny-template #valores .pad-h,
+#shiny-template #ventajas .pad-h {
   padding: 0 15%;
 }
-#valores .col,
-#ventajas .col {
+#shiny-template #valores .col,
+#shiny-template #ventajas .col {
   flex-direction: column !important;
   flex-flow: column !important;
   margin: 20px 0%;
   width: 50%;
 }
-#valores .col img,
-#ventajas .col img {
+#shiny-template #valores .col img,
+#shiny-template #ventajas .col img {
   width: 50%;
 }
-#valores .rd,
-#ventajas .rd {
+#shiny-template #valores .rd,
+#shiny-template #ventajas .rd {
   width: 25%;
   margin: 20px 4%;
 }
-#valores .rd p,
-#ventajas .rd p {
+#shiny-template #valores .rd p,
+#shiny-template #ventajas .rd p {
   padding: 10px 5%;
   line-height: 115%;
 }
-#howtopay,
-#galeria {
+#shiny-template #howtopay,
+#shiny-template #galeria {
   background-color: #346cb3;
   padding-top: 80px;
   padding-bottom: 200px;
 }
-#howtopay h2,
-#galeria h2,
-#howtopay p,
-#galeria p {
+#shiny-template #howtopay h2,
+#shiny-template #galeria h2,
+#shiny-template #howtopay p,
+#shiny-template #galeria p {
   text-align: center;
   color: #f4f2f2;
   line-height: 115%;
 }
-#howtopay h2,
-#galeria h2 {
+#shiny-template #howtopay h2,
+#shiny-template #galeria h2 {
   font-size: 60px;
   padding-bottom: 20px;
   font-weight: 500;
 }
-#howtopay p,
-#galeria p {
+#shiny-template #howtopay p,
+#shiny-template #galeria p {
   font-size: 30px;
   font-family: 'Poetsen One';
   font-weight: 100;
 }
-#contacto {
+#shiny-template #contacto {
   background: url(../img/back-gray.jpg) center no-repeat;
   background-size: cover;
   padding-top: 140px;
   padding-bottom: 120px;
 }
-#contacto h2,
-#contacto p,
-#contacto a {
+#shiny-template #contacto h2,
+#shiny-template #contacto p,
+#shiny-template #contacto a {
   color: white;
   line-height: 110%;
 }
-#contacto .flex .c-col,
-#contacto .flex #mapa {
+#shiny-template #contacto .flex .c-col,
+#shiny-template #contacto .flex #mapa {
   padding: 0 30px;
 }
-#contacto #mapa .map {
+#shiny-template #contacto #mapa .map {
   padding-bottom: 60px;
 }
-#contacto #mapa .map iframe {
+#shiny-template #contacto #mapa .map iframe {
   width: 90%;
   max-height: 360px;
 }
-#contacto #mapa .nomar {
+#shiny-template #contacto #mapa .nomar {
   margin: 0;
 }
-#contacto #mapa img {
+#shiny-template #contacto #mapa img {
   margin-bottom: 50px;
 }
-#contacto #mapa p {
+#shiny-template #contacto #mapa p {
   font-family: 'Poetsen One';
   font-size: 30px;
   margin-bottom: 0;
 }
-#contacto #mapa .s {
+#shiny-template #contacto #mapa .s {
   font-size: 24px;
   text-align: left;
   margin-top: 3px;
 }
-#contacto #mapa #phone {
+#shiny-template #contacto #mapa #phone {
   margin-bottom: 20px;
   max-height: 50px;
 }
-#contacto #mapa #phone img {
+#shiny-template #contacto #mapa #phone img {
   margin-bottom: 0;
   top: -10px;
   position: relative;
 }
-#contacto #mapa .icons-bot {
+#shiny-template #contacto #mapa .icons-bot {
   margin-bottom: 20px;
 }
-#contacto #mapa .icons-bot .icon {
+#shiny-template #contacto #mapa .icons-bot .icon {
   width: 15%;
 }
-#contacto #mapa .icons-bot .txt {
+#shiny-template #contacto #mapa .icons-bot .txt {
   width: 85%;
 }
-#contacto .c-col h2 {
+#shiny-template #contacto .c-col h2 {
   font-size: 60px;
   padding-bottom: 80px;
   margin-left: 5px;
 }
-#contacto .c-col p {
+#shiny-template #contacto .c-col p {
   font-family: 'Kandira PERSONAL';
   font-size: 24px;
   font-weight: 500;
 }
-#contacto .c-col #followus .col {
+#shiny-template #contacto .c-col #followus .col {
   width: 15%;
 }
-#contacto .c-col #followus .col img {
+#shiny-template #contacto .c-col #followus .col img {
   transition: 0.3s all;
 }
-#contacto .c-col #followus .col img:hover {
+#shiny-template #contacto .c-col #followus .col img:hover {
   transition: 0.3s all;
   transform: scale(1.1) !important;
 }
-#contacto #cform {
+#shiny-template #contacto #cform {
   min-height: 550px;
 }
-#contacto #cform .caldera-grid .form-control {
+#shiny-template #contacto #cform .caldera-grid .form-control {
   height: 60px;
 }
-#contacto #cform .caldera-grid textarea.form-control {
+#shiny-template #contacto #cform .caldera-grid textarea.form-control {
   height: 300px !important;
 }
-#contacto #cform .caldera-grid .form-control::-webkit-input-placeholder {
+#shiny-template #contacto #cform .caldera-grid .form-control::-webkit-input-placeholder {
   color: white;
   font-family: 'Poetsen One';
   font-size: 21px;
 }
-#contacto #cform .help-block {
+#shiny-template #contacto #cform .help-block {
   color: white;
   font-family: 'Poetsen One';
   font-size: 21px;
 }
-#contacto #cform .form-control {
+#shiny-template #contacto #cform .form-control {
   background-color: #a4a2a2;
   padding-bottom: 1px !important;
   color: white;
@@ -524,10 +531,10 @@ h2 {
   font-size: 21px;
   border-radius: 8px;
 }
-#contacto #cform .single .form-group {
+#shiny-template #contacto #cform .single .form-group {
   height: 60px !important;
 }
-#contacto #cform .boton-enviar {
+#shiny-template #contacto #cform .boton-enviar {
   float: right;
   clear: both;
   font-family: 'Poetsen One';
@@ -537,7 +544,7 @@ h2 {
   padding: 12px 30px;
   font-size: 28px;
 }
-#contacto #cform input.btn-form-class {
+#shiny-template #contacto #cform input.btn-form-class {
   position: relative;
   top: 240px;
   float: right;
@@ -550,220 +557,221 @@ h2 {
   font-family: 'Poetsen One';
   transition: 0.3s all !important;
 }
-#contacto #cform input.btn-form-class:hover {
+#shiny-template #contacto #cform input.btn-form-class:hover {
   transition: 0.3s all !important;
   color: white;
   background-color: #e61674;
 }
-/* ==[ ★ Quienes somos - who we are ★ ]== */
-#somoswho {
+#shiny-template #somoswho {
   background: url(../img/whoweare/back-banner.jpg) center no-repeat;
   background-size: cover;
   min-height: 975px;
 }
-#somoswho h1 {
+#shiny-template #somoswho h1 {
   padding-top: 340px;
   font-size: 64px;
   color: white;
   font-family: 'Poetsen One' !important;
   margin-bottom: 85px;
 }
-#idiam {
+#shiny-template #idiam {
   background: url(../img/whoweare/back-whiten.png) top no-repeat;
   min-height: 1100px;
 }
-#idiam img {
+#shiny-template #idiam img {
   width: 40%;
   margin-top: 180px;
   margin-bottom: 80px;
 }
-#idiam p {
+#shiny-template #idiam p {
   margin: 0 14%;
   margin-bottom: 30px;
   text-align: justify;
   text-align-last: center;
 }
-#idiam p:last-of-type {
+#shiny-template #idiam p:last-of-type {
   margin-bottom: 200px;
 }
-.whitetxt h1,
-.whitetxt h2,
-.whitetxt h3,
-.whitetxt h4,
-.whitetxt p {
-  color: white;
+#shiny-template .whitetxt h1,
+#shiny-template .whitetxt h2,
+#shiny-template .whitetxt h3,
+#shiny-template .whitetxt h4,
+#shiny-template .whitetxt p {
+  color: white !important;
 }
-.pt {
+#shiny-template .pt {
   padding-top: 30px;
 }
-#mision {
+#shiny-template #mision {
   background: url(../img/whoweare/back-pink.png) center no-repeat;
   min-height: 1340px;
   padding-top: 550px;
   top: -666px;
   margin-bottom: -1111px;
 }
-#mision h2 {
+#shiny-template #mision h2 {
   font-size: 60px;
   margin-bottom: 40px;
 }
-#mision p {
+#shiny-template #mision p {
   text-align: justify;
   line-height: 110%;
 }
-#mision #mission {
+#shiny-template #mision #mission {
   position: relative;
   bottom: 69px;
   padding-left: 10%;
 }
-#mision .col {
+#shiny-template #mision .col {
   padding: 0 2%;
 }
-#mision .col img {
+#shiny-template #mision .col img {
   width: 95%;
 }
-#mision .col #students {
+#shiny-template #mision .col #students {
   position: relative;
   right: 10%;
   width: 110%;
 }
-#valores {
+#shiny-template #valores {
   padding-top: 280px;
 }
-#valores img {
+#shiny-template #valores img {
   width: 100%;
 }
-/* ==[ ★ Modalidades de estudio ★ ]== */
-#aprender {
+#shiny-template #aprender {
   background: url(../img/modalidades/banner.jpg) top no-repeat;
   background-size: cover;
 }
-#aprender h1 {
+#shiny-template #aprender h1 {
   color: white;
   font-size: 64px;
   font-family: 'Poetsen One';
   padding-top: 300px;
   padding-bottom: 240px;
 }
-#modalidades-estudio {
+#shiny-template #modalidades-estudio {
   background: url(../img/whoweare/back-whiten.png) top no-repeat;
   padding-bottom: 360px;
 }
-#modalidades-estudio h2 {
+#shiny-template #modalidades-estudio h2 {
   padding-top: 50px;
   color: #346cb3;
   font-size: 48px;
 }
-#modalidades-estudio .col {
+#shiny-template #modalidades-estudio .col {
   background-color: white;
 }
-#modalidades-estudio .col p {
+#shiny-template #modalidades-estudio .col p {
   padding: 0 6%;
   font-size: 24px;
   line-height: 115%;
   text-align: justify;
 }
-#objetivos {
+#shiny-template #objetivos {
   z-index: 10;
   top: -280px;
   background: url(../img/modalidades/back-blue.png) center no-repeat;
   min-height: 1050px;
   padding: 0 20%;
 }
-#objetivos h2 {
+#shiny-template #objetivos h2 {
   padding-top: 380px;
   font-size: 60px;
 }
-#objetivos h2,
-#objetivos p {
+#shiny-template #objetivos h2,
+#shiny-template #objetivos p {
   line-height: 115%;
   margin-bottom: 40px;
 }
-#objetivos p {
+#shiny-template #objetivos p {
   font-weight: 300;
 }
-#niveles {
+#shiny-template #niveles {
   background-color: white;
   padding-top: 340px;
   top: -360px;
   margin-bottom: -300px;
   z-index: 1;
 }
-#niveles h2 {
+#shiny-template #niveles h2 {
   color: #e61674;
   font-size: 48px;
   margin-bottom: 40px;
 }
-#niveles p {
+#shiny-template #niveles p {
   line-height: 115%;
   margin-bottom: 100px;
   padding: 0 11%;
 }
-#niveles .flex {
+#shiny-template #niveles .flex {
   margin-bottom: 80px;
 }
-#niveles .flex .col {
+#shiny-template #niveles .flex .col {
   width: 33.33%;
 }
-#niveles .flex .col h3 {
+#shiny-template #niveles .flex .col h3 {
   font-size: 30px;
   font-family: 'Poetsen One';
   color: #346cb3;
   padding-top: 20px;
   padding-bottom: 30px;
 }
-#niveles .flex .col p {
+#shiny-template #niveles .flex .col p {
   font-size: 24px;
   text-align: justify;
 }
-#niveles .flex .whiten-col {
+#shiny-template #niveles .flex .whiten-col {
   width: 31.3333%;
   background-color: #f4f2f2;
   margin: 0 1%;
 }
-#niveles .flex .whiten-col img {
+#shiny-template #niveles .flex .whiten-col img {
   width: 100%;
 }
-#alojamiento {
+#shiny-template #alojamiento {
   padding-bottom: 160px;
   background-color: #f4f2f2;
 }
-#alojamiento h2 {
+#shiny-template #alojamiento h2 {
   color: #346cb3;
   padding-top: 180px;
   margin-bottom: 120px;
 }
-#alojamiento p,
-#alojamiento li {
+#shiny-template #alojamiento p,
+#shiny-template #alojamiento li {
   line-height: 115%;
   text-align: left;
 }
-#alojamiento .bluedot {
+#shiny-template #alojamiento .bluedot {
   color: #346cb3;
   font-size: 48px;
   position: relative;
   top: 6px;
 }
-.short {
+#shiny-template .short {
   padding-top: 40px !important;
   padding-bottom: 60px !important;
 }
-#five {
+#shiny-template #five {
   padding-top: 100px;
   padding-bottom: 60px;
 }
-#five h2 {
+#shiny-template #five h2 {
   font-size: 60px;
 }
-#five h2,
-#five p {
+#shiny-template #five h2,
+#shiny-template #five p {
   color: #346cb3;
   font-family: 'Poetsen One';
   text-align: center;
 }
 @media screen and (max-width: 650px) {
   .s36 {
-    font-size: 36px !important;
+    font-size: 20px !important;
+  }
+  .mov-hide {
+    display: none !important;
   }
   a {
     transition: 0.3s all;
@@ -784,7 +792,7 @@ h2 {
   }
   .flex .col {
     flex-flow: column;
-    width: 50%;
+    width: 100%;
     padding: 0px;
     box-sizing: border-box;
   }
@@ -794,75 +802,88 @@ h2 {
   .flex .col.align-self-end {
     align-self: flex-end;
   }
+  #shiny-template {
+    /* ==[ ★ header ★ ]== */
+    /* ==[ ★ home - principal ★ ]== */
+    /* ==[ ★ Quienes somos - who we are ★ ]== */
+    /* ==[ ★ Modalidades de estudio ★ ]== */
+  }
+  #shiny-template .onlymov {
+    display: flex;
+  }
   #shiny-template p,
   #shiny-template li {
     font-size: 18px;
     color: #4f4f4f;
     font-family: 'Kandira PERSONAL';
   }
-  .kan {
+  #shiny-template .kan {
     font-family: 'Kandira PERSONAL' !important;
   }
-  .posten {
+  #shiny-template .posten {
     font-family: 'Poetsen One' !important;
   }
-  .shadow {
+  #shiny-template .shadow {
     text-shadow: 2px 2px 8px #000000;
   }
-  .fcentered {
+  #shiny-template .fcentered {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .center {
+  #shiny-template .center {
     text-align: center;
   }
-  h2 {
+  #shiny-template h2 {
     font-family: 'Poetsen One';
-    font-size: 48px;
+    font-size: 22px;
   }
-  .container {
+  #shiny-template .container {
     max-width: 1250px;
     margin: auto;
   }
-  .upper {
+  #shiny-template .upper {
     position: relative;
-    top: -120px;
-    margin-bottom: -120px;
   }
-  .btn {
+  #shiny-template .btn {
     background-color: #e61674;
     color: white;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 28px;
     padding: 22px 28px;
     border-radius: 8px;
     font-family: 'Poetsen One';
     transition: 0.3s all !important;
   }
-  .btn:hover {
+  #shiny-template .btn:hover {
     transition: 0.3s all !important;
     color: white;
     background-color: #346cb3;
   }
-  /* ==[ ★ header ★ ]== */
-  .mk-nav-responsive-link {
+  #shiny-template .header-logo a img {
+    max-width: 300px;
+  }
+  #shiny-template .mk-nav-responsive-link {
     background-color: #346cb3;
   }
-  .mk-css-icon-menu-line-1,
-  .mk-css-icon-menu-line-2,
-  .mk-css-icon-menu-line-3 {
+  #shiny-template .mk-css-icon-menu-line-1,
+  #shiny-template .mk-css-icon-menu-line-2,
+  #shiny-template .mk-css-icon-menu-line-3 {
     background-color: white !important;
     font-size: 24px;
   }
-  /* ==[ ★ home - principal ★ ]== */
-  #slider-home h1,
-  #slider-home h2 {
-    font-family: 'Poetsen One';
-    font-size: 26px;
+  #shiny-template #slider-home #rev_slider_2_2_wrapper #slide-2-layer-1 h1,
+  #shiny-template #slider-home #rev_slider_2_2_wrapper #slide-2-layer-1 h2 {
+    font-family: 'Poetsen One' !important;
+    font-size: 26px !important;
+    text-align: center !important;
+    margin: auto !important;
   }
-  #somos {
+  #shiny-template #slider-home #rev_slider_2_2_wrapper #slide-2-layer-1 .pink {
+    font-size: 26px !important;
+  }
+  #shiny-template #somos {
     z-index: 1;
     top: -180px;
     margin-bottom: -400px;
@@ -870,309 +891,324 @@ h2 {
     padding-bottom: 300px;
     background: url(../img/whoweare/back-whiten.png) top no-repeat;
   }
-  #somos .container {
+  #shiny-template #somos .container {
     max-width: 2000px;
+    text-align: center;
   }
-  #somos .col {
+  #shiny-template #somos .col {
     padding: 0 20px;
   }
-  #somos h1 {
-    color: #346cb3;
-    margin-bottom: 80px;
+  #shiny-template #somos h1 {
+    margin-bottom: 30px;
+    text-align: center;
   }
-  #somos p {
+  #shiny-template #somos p {
     text-align: justify;
-    text-align-last: left;
-    margin-bottom: 90px;
+    text-align-last: center;
+    margin-bottom: 70px;
     line-height: 115%;
   }
-  #somos .txt {
+  #shiny-template #somos .txt {
     padding-left: 7%;
     padding-right: 2%;
   }
-  #somos .oneimg {
+  #shiny-template #somos .oneimg {
     padding: 0;
   }
-  #somos .oneimg img {
+  #shiny-template #somos .oneimg img {
     width: 105%;
   }
-  #testimonios {
+  #shiny-template #testimonios {
     position: relative;
     z-index: 100;
     background: url(../img/home/back-addonBLUE.png) center no-repeat;
     min-height: 1050px;
     background-size: cover;
   }
-  #testimonios h2,
-  #testimonios h3,
-  #testimonios p {
+  #shiny-template #testimonios h2,
+  #shiny-template #testimonios h3,
+  #shiny-template #testimonios p {
     color: white;
   }
-  #testimonios h2 {
+  #shiny-template #testimonios h2 {
     padding-top: 260px;
     padding-bottom: 100px;
-    font-size: 60px;
+    font-size: 26px;
   }
-  #testimonios h3 {
-    font-size: 36px;
+  #shiny-template #testimonios h3 {
+    font-size: 20px;
     padding-top: 20px;
-    padding-bottom: 40px;
-    font-family: 'Poetsen One';
+    padding-bottom: 10px;
   }
-  #testimonios p {
-    font-size: 24px;
+  #shiny-template #testimonios .col {
+    margin-bottom: 40px;
+  }
+  #shiny-template #testimonios p {
+    font-size: 15px;
     line-height: 115%;
     padding: 0 10%;
     font-weight: 300;
   }
-  #testimonios .col {
+  #shiny-template #testimonios .col {
     padding: 0 30px;
   }
-  #testimonios .col .fcentered {
+  #shiny-template #testimonios .col .fcentered {
     width: 100% !important;
   }
-  #modalidades-estudio,
-  #modalidades {
+  #shiny-template #modalidades-estudio,
+  #shiny-template #modalidades {
     padding-bottom: 80px;
     padding-top: 120px;
   }
-  #modalidades-estudio h2,
-  #modalidades h2 {
-    color: #346cb3;
-  }
-  #modalidades-estudio .col,
-  #modalidades .col {
-    width: 42%;
-    margin: 0 4%;
-    background-color: #f4f2f2;
-  }
-  #modalidades-estudio .col img,
-  #modalidades .col img {
+  #shiny-template #modalidades-estudio .col,
+  #shiny-template #modalidades .col {
     width: 100%;
+    margin: 0 10% 40px;
   }
-  #modalidades-estudio .col .pink-sqrt,
-  #modalidades .col .pink-sqrt {
+  #shiny-template #modalidades-estudio .col .pink-sqrt,
+  #shiny-template #modalidades .col .pink-sqrt {
     margin-bottom: 40px;
-    background-color: #e61674;
   }
-  #modalidades-estudio .col .pink-sqrt h3,
-  #modalidades .col .pink-sqrt h3 {
+  #shiny-template #modalidades-estudio .col .pink-sqrt h3,
+  #shiny-template #modalidades .col .pink-sqrt h3 {
     padding: 20px;
     text-align: center;
-    color: white;
-    font-family: 'Kandira PERSONAL';
-    font-size: 36px;
+    font-size: 20px;
   }
-  #modalidades-estudio .col p,
-  #modalidades .col p {
+  #shiny-template #modalidades-estudio .col p,
+  #shiny-template #modalidades .col p {
     padding: 10px 11%;
-    text-align: center;
-    font-family: 'Poetsen One';
     font-size: 18px;
   }
-  #modalidades-estudio .flex,
-  #modalidades .flex {
+  #shiny-template #modalidades-estudio .flex,
+  #shiny-template #modalidades .flex {
     padding-top: 80px;
   }
-  #modalidades-estudio .btns,
-  #modalidades .btns {
+  #shiny-template #modalidades-estudio .btns,
+  #shiny-template #modalidades .btns {
     padding-top: 0;
   }
-  #modalidades-estudio .btns .col,
-  #modalidades .btns .col {
+  #shiny-template #modalidades-estudio .btns .col,
+  #shiny-template #modalidades .btns .col {
     background-color: white;
-    min-height: 210px;
+    min-height: 120px;
   }
-  #modalidades-estudio .btns .col a,
-  #modalidades .btns .col a {
+  #shiny-template #modalidades-estudio .btns .col a,
+  #shiny-template #modalidades .btns .col a {
     text-align: center;
   }
-  #modalidades-estudio .btns .col .btn,
-  #modalidades .btns .col .btn {
+  #shiny-template #modalidades-estudio .btns .col .btn,
+  #shiny-template #modalidades .btns .col .btn {
     background-color: #346cb3;
   }
-  #modalidades-estudio .btns .col .btn:hover,
-  #modalidades .btns .col .btn:hover {
+  #shiny-template #modalidades-estudio .btns .col .btn:hover,
+  #shiny-template #modalidades .btns .col .btn:hover {
     transform: scale(1.1) !important;
     transition: 0.3s all !important;
     color: white;
     background-color: #e61674;
   }
-  #modalidades-estudio .posten,
-  #modalidades .posten {
-    margin-top: 60px;
-    font-size: 36px;
+  #shiny-template #modalidades-estudio .posten,
+  #shiny-template #modalidades .posten {
+    margin-top: 0px;
+    font-size: 20px;
     color: #5c5c5c;
     text-align: center;
     line-height: 120%;
+    padding: 0 3%;
   }
-  #valores,
-  #ventajas {
+  #shiny-template #valores,
+  #shiny-template #ventajas {
     background-color: #f4f2f2;
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  #valores h2,
-  #ventajas h2 {
+  #shiny-template #valores h2,
+  #shiny-template #ventajas h2 {
     font-family: 'Poetsen One';
-    padding-bottom: 120px;
+    padding-bottom: 60px;
   }
-  #valores p,
-  #ventajas p {
+  #shiny-template #valores p,
+  #shiny-template #ventajas p {
+    font-size: 14px;
     font-family: 'Poetsen One';
     padding: 10px 22%;
     color: #6b6b6b;
     font-weight: 100;
     line-height: 115%;
   }
-  #valores .pad-h,
-  #ventajas .pad-h {
+  #shiny-template #valores .pad-h,
+  #shiny-template #ventajas .pad-h {
     padding: 0 15%;
   }
-  #valores .col,
-  #ventajas .col {
+  #shiny-template #valores .col,
+  #shiny-template #ventajas .col {
     flex-direction: column !important;
     flex-flow: column !important;
     margin: 20px 0%;
     width: 50%;
   }
-  #valores .col img,
-  #ventajas .col img {
+  #shiny-template #valores .col img,
+  #shiny-template #ventajas .col img {
     width: 50%;
   }
-  #valores .rd,
-  #ventajas .rd {
+  #shiny-template #valores .rd,
+  #shiny-template #ventajas .rd {
     width: 25%;
     margin: 20px 4%;
   }
-  #valores .rd p,
-  #ventajas .rd p {
-    padding: 10px 5%;
+  #shiny-template #valores .rd p,
+  #shiny-template #ventajas .rd p {
+    padding: 10px 1%;
     line-height: 115%;
   }
-  #howtopay,
-  #galeria {
+  #shiny-template #howtopay,
+  #shiny-template #galeria {
     background-color: #346cb3;
     padding-top: 80px;
-    padding-bottom: 200px;
+    padding-bottom: 80px;
   }
-  #howtopay h2,
-  #galeria h2,
-  #howtopay p,
-  #galeria p {
-    text-align: center;
+  #shiny-template #howtopay h2,
+  #shiny-template #galeria h2,
+  #shiny-template #howtopay p,
+  #shiny-template #galeria p {
+    text-align: justify;
+    text-align-last: center;
     color: #f4f2f2;
     line-height: 115%;
+    padding: 0 10%;
   }
-  #howtopay h2,
-  #galeria h2 {
-    font-size: 60px;
+  #shiny-template #howtopay h2,
+  #shiny-template #galeria h2 {
+    font-size: 24px;
     padding-bottom: 20px;
     font-weight: 500;
   }
-  #howtopay p,
-  #galeria p {
+  #shiny-template #howtopay p,
+  #shiny-template #galeria p {
     font-size: 18px;
     font-family: 'Poetsen One';
     font-weight: 100;
   }
-  #contacto {
+  #shiny-template #contacto {
     background: url(../img/back-gray.jpg) center no-repeat;
     background-size: cover;
-    padding-top: 140px;
+    padding-top: 80px;
     padding-bottom: 120px;
   }
-  #contacto h2,
-  #contacto p,
-  #contacto a {
+  #shiny-template #contacto h2,
+  #shiny-template #contacto p,
+  #shiny-template #contacto a {
     color: white;
     line-height: 110%;
   }
-  #contacto .flex .c-col,
-  #contacto .flex #mapa {
+  #shiny-template #contacto h2 {
+    margin-left: 0 ;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 40px;
+    font-size: 50px !important;
+  }
+  #shiny-template #contacto .flex .c-col,
+  #shiny-template #contacto .flex #mapa {
     padding: 0 30px;
   }
-  #contacto #mapa .map {
-    padding-bottom: 60px;
+  #shiny-template #contacto #mapa .map {
+    padding-bottom: 30px;
   }
-  #contacto #mapa .map iframe {
+  #shiny-template #contacto #mapa .map iframe {
     width: 90%;
     max-height: 360px;
   }
-  #contacto #mapa .nomar {
+  #shiny-template #contacto #mapa .nomar {
     margin: 0;
   }
-  #contacto #mapa img {
-    margin-bottom: 50px;
+  #shiny-template #contacto #mapa img {
+    margin-bottom: 35px;
   }
-  #contacto #mapa p {
+  #shiny-template #contacto #mapa p {
     font-family: 'Poetsen One';
     font-size: 18px;
     margin-bottom: 0;
   }
-  #contacto #mapa .s {
-    font-size: 24px;
-    text-align: left;
+  #shiny-template #contacto #mapa .s {
+    font-size: 18px;
+    text-align: center;
     margin-top: 3px;
   }
-  #contacto #mapa #phone {
+  #shiny-template #contacto #mapa #phone {
     margin-bottom: 20px;
     max-height: 50px;
   }
-  #contacto #mapa #phone img {
+  #shiny-template #contacto #mapa #phone img {
     margin-bottom: 0;
     top: -10px;
     position: relative;
   }
-  #contacto #mapa .icons-bot {
+  #shiny-template #contacto #mapa .icons-bot {
+    margin-bottom: 0px;
+  }
+  #shiny-template #contacto #mapa .icons-bot .icon {
+    width: 21%;
+  }
+  #shiny-template #contacto #mapa .icons-bot .txt {
+    width: 79%;
+  }
+  #shiny-template #contacto #mapa .icons-bot .fcentered p {
+    position: relative;
+    bottom: 20px;
+  }
+  #shiny-template #contacto #mapa .mov-gmail .icon {
+    width: 100%;
     margin-bottom: 20px;
   }
-  #contacto #mapa .icons-bot .icon {
-    width: 15%;
+  #shiny-template #contacto #mapa .mov-gmail .txt {
+    text-align: center;
+    width: 100%;
   }
-  #contacto #mapa .icons-bot .txt {
-    width: 85%;
+  #shiny-template #contacto .pad-top {
+    text-align: center;
   }
-  #contacto .c-col h2 {
-    font-size: 60px;
-    padding-bottom: 80px;
-    margin-left: 5px;
-  }
-  #contacto .c-col p {
-    font-family: 'Kandira PERSONAL';
+  #shiny-template #contacto .c-col h2 {
     font-size: 24px;
+    padding-bottom: 30px;
+    margin-left: 1px;
+  }
+  #shiny-template #contacto .c-col p {
+    font-family: 'Kandira PERSONAL';
+    font-size: 15px;
     font-weight: 500;
   }
-  #contacto .c-col #followus .col {
-    width: 15%;
+  #shiny-template #contacto .c-col #followus .col {
+    width: 20%;
   }
-  #contacto .c-col #followus .col img {
+  #shiny-template #contacto .c-col #followus .col img {
     transition: 0.3s all;
   }
-  #contacto .c-col #followus .col img:hover {
+  #shiny-template #contacto .c-col #followus .col img:hover {
     transition: 0.3s all;
     transform: scale(1.1) !important;
   }
-  #contacto #cform {
+  #shiny-template #contacto #cform {
     min-height: 550px;
   }
-  #contacto #cform .caldera-grid .form-control {
+  #shiny-template #contacto #cform .caldera-grid .form-control {
     height: 60px;
   }
-  #contacto #cform .caldera-grid textarea.form-control {
+  #shiny-template #contacto #cform .caldera-grid textarea.form-control {
     height: 300px !important;
   }
-  #contacto #cform .caldera-grid .form-control::-webkit-input-placeholder {
+  #shiny-template #contacto #cform .caldera-grid .form-control::-webkit-input-placeholder {
     color: white;
     font-family: 'Poetsen One';
     font-size: 21px;
   }
-  #contacto #cform .help-block {
+  #shiny-template #contacto #cform .help-block {
     color: white;
     font-family: 'Poetsen One';
     font-size: 21px;
   }
-  #contacto #cform .form-control {
+  #shiny-template #contacto #cform .form-control {
     background-color: #a4a2a2;
     padding-bottom: 1px !important;
     color: white;
@@ -1180,10 +1216,10 @@ h2 {
     font-size: 21px;
     border-radius: 8px;
   }
-  #contacto #cform .single .form-group {
+  #shiny-template #contacto #cform .single .form-group {
     height: 60px !important;
   }
-  #contacto #cform .boton-enviar {
+  #shiny-template #contacto #cform .boton-enviar {
     float: right;
     clear: both;
     font-family: 'Poetsen One';
@@ -1193,227 +1229,241 @@ h2 {
     padding: 12px 30px;
     font-size: 28px;
   }
-  #contacto #cform input.btn-form-class {
+  #shiny-template #contacto #cform input.btn-form-class {
     position: relative;
     top: 240px;
     float: right;
     background-color: #346cb3;
     color: white;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 28px;
     padding: 22px 28px;
     border-radius: 8px;
     font-family: 'Poetsen One';
     transition: 0.3s all !important;
   }
-  #contacto #cform input.btn-form-class:hover {
+  #shiny-template #contacto #cform input.btn-form-class:hover {
     transition: 0.3s all !important;
     color: white;
     background-color: #e61674;
   }
-  /* ==[ ★ Quienes somos - who we are ★ ]== */
-  #somoswho {
+  #shiny-template #somoswho {
     background: url(../img/whoweare/resback-banner.jpg) center no-repeat;
     background-size: cover;
     min-height: 850px;
   }
-  #somoswho h1 {
+  #shiny-template #somoswho h1 {
     font-size: 26px;
     padding: 380px 10px 0;
     margin-bottom: 85px;
   }
-  #idiam {
+  #shiny-template #idiam {
     background: url(../img/whoweare/back-whiten.png) top no-repeat;
-    min-height: 1100px;
+    min-height: 920px;
   }
-  #idiam .container {
+  #shiny-template #idiam .container {
     margin: 0 10%;
   }
-  #idiam img {
+  #shiny-template #idiam img {
     width: 100%;
     margin-top: 180px;
     margin-bottom: 40px;
   }
-  #idiam p {
+  #shiny-template #idiam p {
     margin: 0;
     margin-bottom: 30px;
     text-align: justify;
     text-align-last: center;
   }
-  #idiam p:last-of-type {
+  #shiny-template #idiam p:last-of-type {
     margin-bottom: 40px;
   }
-  .whitetxt h1,
-  .whitetxt h2,
-  .whitetxt h3,
-  .whitetxt h4,
-  .whitetxt p {
-    color: white;
+  #shiny-template .whitetxt h1,
+  #shiny-template .whitetxt h2,
+  #shiny-template .whitetxt h3,
+  #shiny-template .whitetxt h4,
+  #shiny-template .whitetxt p {
+    color: white !important;
   }
-  .pt {
+  #shiny-template .pt {
     padding-top: 30px;
   }
-  #mision {
+  #shiny-template #mision {
     background: url(../img/whoweare/back-pink.png) center no-repeat;
-    min-height: 1340px;
-    padding-top: 550px;
-    top: -666px;
-    margin-bottom: -1111px;
+    background-size: cover;
+    min-height: 1040px;
+    padding-top: 350px;
+    top: -246px !important;
+    margin-bottom: -380px !important;
+    position: relative;
   }
-  #mision h2 {
-    font-size: 60px;
-    margin-bottom: 40px;
+  #shiny-template #mision .container {
+    padding: 0 10%;
   }
-  #mision p {
+  #shiny-template #mision h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #shiny-template #mision p {
     text-align: justify;
     line-height: 110%;
+    text-align-last: center;
+    margin-bottom: 0;
   }
-  #mision #mission {
+  #shiny-template #mision #mission {
     position: relative;
     bottom: 69px;
-    padding-left: 10%;
+    padding-left: 0%;
   }
-  #mision .col {
-    padding: 0 2%;
+  #shiny-template #mision .col {
+    padding: 0;
   }
-  #mision .col img {
-    width: 95%;
+  #shiny-template #mision .col img {
+    width: 100% !important;
+    margin-bottom: 40px;
   }
-  #mision .col #students {
-    position: relative;
-    right: 10%;
-    width: 110%;
+  #shiny-template #mision .col #student {
+    margin-top: 60px;
   }
-  #valores {
+  #shiny-template #valores {
     padding-top: 280px;
   }
-  #valores img {
+  #shiny-template #valores img {
     width: 100%;
   }
-  /* ==[ ★ Modalidades de estudio ★ ]== */
-  #aprender {
+  #shiny-template #aprender {
     background: url(../img/modalidades/banner.jpg) top no-repeat;
     background-size: cover;
   }
-  #aprender h1 {
+  #shiny-template #aprender h1 {
     color: white;
     font-size: 26px;
     font-family: 'Poetsen One';
     padding-top: 300px;
     padding-bottom: 240px;
   }
-  #modalidades-estudio {
+  #shiny-template #modalidades-estudio {
     background: url(../img/whoweare/back-whiten.png) top no-repeat;
-    padding-bottom: 360px;
+    background-color: #f4f2f2;
+    padding-bottom: 460px;
   }
-  #modalidades-estudio h2 {
+  #shiny-template #modalidades-estudio h2 {
     padding-top: 50px;
     color: #346cb3;
-    font-size: 48px;
+    font-size: 22px;
   }
-  #modalidades-estudio .col {
+  #shiny-template #modalidades-estudio .col {
     background-color: white;
   }
-  #modalidades-estudio .col p {
+  #shiny-template #modalidades-estudio .col p {
     padding: 0 6%;
-    font-size: 24px;
+    font-size: 15px;
     line-height: 115%;
     text-align: justify;
   }
-  #objetivos {
+  #shiny-template #objetivos {
     z-index: 10;
-    top: -280px;
+    top: -400px;
     background: url(../img/modalidades/back-blue.png) center no-repeat;
     min-height: 1050px;
     padding: 0 20%;
   }
-  #objetivos h2 {
+  #shiny-template #objetivos h2 {
     padding-top: 380px;
-    font-size: 60px;
+    font-size: 24px;
   }
-  #objetivos h2,
-  #objetivos p {
+  #shiny-template #objetivos h2,
+  #shiny-template #objetivos p {
     line-height: 115%;
     margin-bottom: 40px;
   }
-  #objetivos p {
+  #shiny-template #objetivos p {
     font-weight: 300;
   }
-  #niveles {
+  #shiny-template #niveles {
     background-color: white;
-    padding-top: 340px;
+    padding-top: 140px;
     top: -360px;
     margin-bottom: -300px;
     z-index: 1;
   }
-  #niveles h2 {
+  #shiny-template #niveles h2 {
     color: #e61674;
-    font-size: 48px;
+    font-size: 22px;
     margin-bottom: 40px;
   }
-  #niveles p {
+  #shiny-template #niveles p {
     line-height: 115%;
     margin-bottom: 100px;
     padding: 0 11%;
   }
-  #niveles .flex {
-    margin-bottom: 80px;
+  #shiny-template #niveles .flex {
+    margin-bottom: 20px;
   }
-  #niveles .flex .col {
-    width: 33.33%;
+  #shiny-template #niveles .flex .col {
+    margin-bottom: 40px;
+    width: 100%;
   }
-  #niveles .flex .col h3 {
+  #shiny-template #niveles .flex .col h3 {
     font-size: 18px;
     font-family: 'Poetsen One';
     color: #346cb3;
     padding-top: 20px;
     padding-bottom: 30px;
   }
-  #niveles .flex .col p {
-    font-size: 24px;
+  #shiny-template #niveles .flex .col p {
+    font-size: 15px;
     text-align: justify;
   }
-  #niveles .flex .whiten-col {
-    width: 31.3333%;
+  #shiny-template #niveles .flex .whiten-col {
+    margin-bottom: 40px;
+    width: 90%;
     background-color: #f4f2f2;
-    margin: 0 1%;
+    margin: 0 5%;
   }
-  #niveles .flex .whiten-col img {
+  #shiny-template #niveles .flex .whiten-col img {
     width: 100%;
   }
-  #alojamiento {
-    padding-bottom: 160px;
+  #shiny-template #alojamiento {
+    padding-bottom: 40px;
     background-color: #f4f2f2;
   }
-  #alojamiento h2 {
+  #shiny-template #alojamiento h2 {
     color: #346cb3;
-    padding-top: 180px;
-    margin-bottom: 120px;
+    padding-top: 40px;
+    margin-bottom: 40px;
   }
-  #alojamiento p,
-  #alojamiento li {
+  #shiny-template #alojamiento .container {
+    padding: 0 5%;
+  }
+  #shiny-template #alojamiento .container img {
+    width: 100%;
+  }
+  #shiny-template #alojamiento p,
+  #shiny-template #alojamiento li {
     line-height: 115%;
     text-align: left;
   }
-  #alojamiento .bluedot {
+  #shiny-template #alojamiento .bluedot {
     color: #346cb3;
-    font-size: 48px;
+    font-size: 22px;
     position: relative;
     top: 6px;
   }
-  .short {
+  #shiny-template .short {
     padding-top: 40px !important;
     padding-bottom: 60px !important;
   }
-  #five {
+  #shiny-template #five {
     padding-top: 100px;
     padding-bottom: 60px;
   }
-  #five h2 {
-    font-size: 60px;
+  #shiny-template #five h2 {
+    font-size: 24px;
   }
-  #five h2,
-  #five p {
+  #shiny-template #five h2,
+  #shiny-template #five p {
     color: #346cb3;
     font-family: 'Poetsen One';
     text-align: center;
