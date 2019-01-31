@@ -153,7 +153,7 @@
 
 
 <?php 
-    get_footer();
+    get_footer('idiam');
     echo "</section>";
 ?>
 

@@ -262,6 +262,11 @@
         <div class="centered">
             <h2> Galería</h2>
 
+            <div class="instagram">
+
+<?php echo do_shortcode('[elfsight_instagram_feed id="1"]'); ?>
+            </div>
+            
             
         </div>
     </div>
@@ -272,7 +277,7 @@
 
 
 <?php 
-    get_footer();
+    get_footer('idiam');
     echo "</section>";
 ?>
 
