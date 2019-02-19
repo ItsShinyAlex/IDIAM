@@ -18,92 +18,92 @@
   font-size: 36px !important;
 }
 @font-face {
-  font-family: 'Poetsen One';
-  src: url('PoetsenOne-Regular.woff2') format('woff2'), url('PoetsenOne-Regular.woff') format('woff');
+  font-family: 'posten';
+  src: url('font/PoetsenOne-Regular.woff2') format('woff2'), url('font/PoetsenOne-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Kandira PERSONAL';
-  src: url('font/Kandira PERSONALPERSONAL-ExtraBlackItali.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-ExtraBlackItali.woff') format('woff');
+  font-family: 'Kan';
+  src: url('font/KandiraPERSONAL-ExtraBlackItali.woff2') format('woff2'), url('font/KandiraPERSONAL-ExtraBlackItali.woff') format('woff');
   font-weight: 900;
   font-style: italic;
 }
 @font-face {
-  font-family: 'Kandira PERSONAL';
-  src: url('font/Kandira PERSONALPERSONAL-Bold.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-Bold.woff') format('woff');
+  font-family: 'Kan';
+  src: url('font/KandiraPERSONAL-Bold.woff2') format('woff2'), url('font/KandiraPERSONAL-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Kandira PERSONAL';
-  src: url('font/Kandira PERSONALPERSONAL-ExtraLightItali.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-ExtraLightItali.woff') format('woff');
+  font-family: 'Kan';
+  src: url('font/KandiraPERSONAL-ExtraLightItali.woff2') format('woff2'), url('font/KandiraPERSONAL-ExtraLightItali.woff') format('woff');
   font-weight: 200;
   font-style: italic;
 }
 @font-face {
-  font-family: 'Kandira PERSONAL';
-  src: url('font/Kandira PERSONALPERSONAL-Black.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-Black.woff') format('woff');
+  font-family: 'Kan';
+  src: url('font/KandiraPERSONAL-Black.woff2') format('woff2'), url('font/KandiraPERSONAL-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Kandira PERSONAL';
-  src: url('Kandira PERSONALPERSONAL.woff2') format('woff2'), url('Kandira PERSONALPERSONAL.woff') format('woff');
+  font-family: 'Kan';
+  src: url('font/KandiraPERSONAL.woff2') format('woff2'), url('font/KandiraPERSONAL.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Kandira PERSONAL';
-  src: url('font/Kandira PERSONALPERSONAL-Light.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-Light.woff') format('woff');
+  font-family: 'Kan';
+  src: url('font/KandiraPERSONAL-Light.woff2') format('woff2'), url('font/KandiraPERSONAL-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Kandira PERSONAL';
-  src: url('font/Kandira PERSONALPERSONAL-LightItalic.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-LightItalic.woff') format('woff');
+  font-family: 'Kan';
+  src: url('font/KandiraPERSONAL-LightItalic.woff2') format('woff2'), url('font/KandiraPERSONAL-LightItalic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
-  font-family: 'Kandira PERSONAL';
-  src: url('font/Kandira PERSONALPERSONAL-BoldItalic.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-BoldItalic.woff') format('woff');
+  font-family: 'Kan';
+  src: url('font/KandiraPERSONAL-BoldItalic.woff2') format('woff2'), url('font/KandiraPERSONAL-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
 }
 @font-face {
-  font-family: 'Kandira PERSONAL';
-  src: url('font/Kandira PERSONALPERSONAL-Italic.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-Italic.woff') format('woff');
+  font-family: 'Kan';
+  src: url('font/KandiraPERSONAL-Italic.woff2') format('woff2'), url('font/KandiraPERSONAL-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
-  font-family: 'Kandira PERSONAL';
-  src: url('font/Kandira PERSONALPERSONAL-ThinItalic.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-ThinItalic.woff') format('woff');
+  font-family: 'Kan';
+  src: url('font/KandiraPERSONAL-ThinItalic.woff2') format('woff2'), url('font/KandiraPERSONAL-ThinItalic.woff') format('woff');
   font-weight: 100;
   font-style: italic;
 }
 @font-face {
-  font-family: 'Kandira PERSONAL';
-  src: url('font/Kandira PERSONALPERSONAL-BlackItalic.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-BlackItalic.woff') format('woff');
+  font-family: 'Kan';
+  src: url('font/KandiraPERSONAL-BlackItalic.woff2') format('woff2'), url('font/KandiraPERSONAL-BlackItalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
 }
 @font-face {
-  font-family: 'Kandira PERSONAL';
-  src: url('font/Kandira PERSONALPERSONAL-ExtraLight.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-ExtraLight.woff') format('woff');
+  font-family: 'Kan';
+  src: url('font/KandiraPERSONAL-ExtraLight.woff2') format('woff2'), url('font/KandiraPERSONAL-ExtraLight.woff') format('woff');
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Kandira PERSONAL';
-  src: url('font/Kandira PERSONALPERSONAL-Thin.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-Thin.woff') format('woff');
+  font-family: 'Kan';
+  src: url('font/KandiraPERSONAL-Thin.woff2') format('woff2'), url('font/KandiraPERSONAL-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Kandira PERSONAL';
-  src: url('font/Kandira PERSONALPERSONAL-ExtraBlack.woff2') format('woff2'), url('font/Kandira PERSONALPERSONAL-ExtraBlack.woff') format('woff');
+  font-family: 'Kan';
+  src: url('font/KandiraPERSONAL-ExtraBlack.woff2') format('woff2'), url('font/KandiraPERSONAL-ExtraBlack.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
@@ -149,13 +149,13 @@ a:hover {
 #shiny-template li {
   font-size: 30px;
   color: #4f4f4f;
-  font-family: 'Kandira PERSONAL';
+  font-family: 'Kan';
 }
 #shiny-template .kan {
-  font-family: 'Kandira PERSONAL' !important;
+  font-family: 'Kan' !important;
 }
 #shiny-template .posten {
-  font-family: 'Poetsen One' !important;
+  font-family: 'posten' !important;
 }
 #shiny-template .shadow {
   text-shadow: 2px 2px 8px #000000;
@@ -170,7 +170,7 @@ a:hover {
   text-align: center;
 }
 #shiny-template h2 {
-  font-family: 'Poetsen One';
+  font-family: 'posten';
   font-size: 48px;
 }
 #shiny-template .container {
@@ -189,7 +189,7 @@ a:hover {
   font-size: 53px;
   padding: 22px 28px;
   border-radius: 8px;
-  font-family: 'Poetsen One';
+  font-family: 'posten';
   transition: 0.3s all !important;
 }
 #shiny-template .btn:hover {
@@ -210,7 +210,7 @@ a:hover {
 }
 #shiny-template #slider-home h1,
 #shiny-template #slider-home h2 {
-  font-family: 'Poetsen One' !important;
+  font-family: 'posten' !important;
   font-size: 64px !important;
 }
 #shiny-template #somos {
@@ -268,7 +268,7 @@ a:hover {
   font-size: 36px;
   padding-top: 20px;
   padding-bottom: 40px;
-  font-family: 'Poetsen One';
+  font-family: 'posten';
 }
 #shiny-template #testimonios p {
   font-size: 24px;
@@ -311,14 +311,14 @@ a:hover {
   padding: 20px;
   text-align: center;
   color: white;
-  font-family: 'Kandira PERSONAL';
+  font-family: 'Kan';
   font-size: 36px;
 }
 #shiny-template #modalidades-estudio .col p,
 #shiny-template #modalidades .col p {
   padding: 10px 11%;
   text-align: center;
-  font-family: 'Poetsen One';
+  font-family: 'posten';
   font-size: 30px;
 }
 #shiny-template #modalidades-estudio .flex,
@@ -365,12 +365,12 @@ a:hover {
 }
 #shiny-template #valores h2,
 #shiny-template #ventajas h2 {
-  font-family: 'Poetsen One';
+  font-family: 'posten';
   padding-bottom: 120px;
 }
 #shiny-template #valores p,
 #shiny-template #ventajas p {
-  font-family: 'Poetsen One';
+  font-family: 'posten';
   padding: 10px 22%;
   color: #6b6b6b;
   font-weight: 100;
@@ -424,7 +424,7 @@ a:hover {
 #shiny-template #howtopay p,
 #shiny-template #galeria p {
   font-size: 30px;
-  font-family: 'Poetsen One';
+  font-family: 'posten';
   font-weight: 100;
 }
 #shiny-template #contacto {
@@ -457,7 +457,7 @@ a:hover {
   margin-bottom: 50px;
 }
 #shiny-template #contacto #mapa p {
-  font-family: 'Poetsen One';
+  font-family: 'posten';
   font-size: 30px;
   margin-bottom: 0;
 }
@@ -490,7 +490,7 @@ a:hover {
   margin-left: 5px;
 }
 #shiny-template #contacto .c-col p {
-  font-family: 'Kandira PERSONAL';
+  font-family: 'Kan';
   font-size: 24px;
   font-weight: 500;
 }
@@ -515,19 +515,19 @@ a:hover {
 }
 #shiny-template #contacto #cform .caldera-grid .form-control::-webkit-input-placeholder {
   color: white;
-  font-family: 'Poetsen One';
+  font-family: 'posten';
   font-size: 21px;
 }
 #shiny-template #contacto #cform .help-block {
   color: white;
-  font-family: 'Poetsen One';
+  font-family: 'posten';
   font-size: 21px;
 }
 #shiny-template #contacto #cform .form-control {
   background-color: #a4a2a2;
   padding-bottom: 1px !important;
   color: white;
-  font-family: 'Poetsen One';
+  font-family: 'posten';
   font-size: 21px;
   border-radius: 8px;
 }
@@ -537,7 +537,7 @@ a:hover {
 #shiny-template #contacto #cform .boton-enviar {
   float: right;
   clear: both;
-  font-family: 'Poetsen One';
+  font-family: 'posten';
   background-color: #346cb3;
   color: white;
   box-shadow: -5px 3px 3px black;
@@ -554,7 +554,7 @@ a:hover {
   font-size: 53px;
   padding: 22px 28px;
   border-radius: 8px;
-  font-family: 'Poetsen One';
+  font-family: 'posten';
   transition: 0.3s all !important;
 }
 #shiny-template #contacto #cform input.btn-form-class:hover {
@@ -571,7 +571,7 @@ a:hover {
   padding-top: 340px;
   font-size: 64px;
   color: white;
-  font-family: 'Poetsen One' !important;
+  font-family: 'posten' !important;
   margin-bottom: 85px;
 }
 #shiny-template #idiam {
@@ -646,7 +646,7 @@ a:hover {
 #shiny-template #aprender h1 {
   color: white;
   font-size: 64px;
-  font-family: 'Poetsen One';
+  font-family: 'posten';
   padding-top: 300px;
   padding-bottom: 240px;
 }
@@ -712,7 +712,7 @@ a:hover {
 }
 #shiny-template #niveles .flex .col h3 {
   font-size: 30px;
-  font-family: 'Poetsen One';
+  font-family: 'posten';
   color: #346cb3;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -763,7 +763,7 @@ a:hover {
 #shiny-template #five h2,
 #shiny-template #five p {
   color: #346cb3;
-  font-family: 'Poetsen One';
+  font-family: 'posten';
   text-align: center;
 }
 @media screen and (max-width: 650px) {
@@ -815,13 +815,6 @@ a:hover {
   #shiny-template li {
     font-size: 18px;
     color: #4f4f4f;
-    font-family: 'Kandira PERSONAL';
-  }
-  #shiny-template .kan {
-    font-family: 'Kandira PERSONAL' !important;
-  }
-  #shiny-template .posten {
-    font-family: 'Poetsen One' !important;
   }
   #shiny-template .shadow {
     text-shadow: 2px 2px 8px #000000;
@@ -836,7 +829,6 @@ a:hover {
     text-align: center;
   }
   #shiny-template h2 {
-    font-family: 'Poetsen One';
     font-size: 22px;
   }
   #shiny-template .container {
@@ -853,7 +845,6 @@ a:hover {
     font-size: 28px;
     padding: 22px 28px;
     border-radius: 8px;
-    font-family: 'Poetsen One';
     transition: 0.3s all !important;
   }
   #shiny-template .btn:hover {
@@ -875,7 +866,6 @@ a:hover {
   }
   #shiny-template #slider-home #rev_slider_2_2_wrapper #slide-2-layer-1 h1,
   #shiny-template #slider-home #rev_slider_2_2_wrapper #slide-2-layer-1 h2 {
-    font-family: 'Poetsen One' !important;
     font-size: 26px !important;
     text-align: center !important;
     margin: auto !important;
@@ -909,8 +899,8 @@ a:hover {
     line-height: 115%;
   }
   #shiny-template #somos .txt {
-    padding-left: 7%;
-    padding-right: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
   }
   #shiny-template #somos .oneimg {
     padding: 0;
@@ -1025,13 +1015,11 @@ a:hover {
   }
   #shiny-template #valores h2,
   #shiny-template #ventajas h2 {
-    font-family: 'Poetsen One';
     padding-bottom: 60px;
   }
   #shiny-template #valores p,
   #shiny-template #ventajas p {
     font-size: 14px;
-    font-family: 'Poetsen One';
     padding: 10px 22%;
     color: #6b6b6b;
     font-weight: 100;
@@ -1087,7 +1075,6 @@ a:hover {
   #shiny-template #howtopay p,
   #shiny-template #galeria p {
     font-size: 18px;
-    font-family: 'Poetsen One';
     font-weight: 100;
   }
   #shiny-template #contacto {
@@ -1127,7 +1114,6 @@ a:hover {
     margin-bottom: 35px;
   }
   #shiny-template #contacto #mapa p {
-    font-family: 'Poetsen One';
     font-size: 18px;
     margin-bottom: 0;
   }
@@ -1175,7 +1161,6 @@ a:hover {
     margin-left: 1px;
   }
   #shiny-template #contacto .c-col p {
-    font-family: 'Kandira PERSONAL';
     font-size: 15px;
     font-weight: 500;
   }
@@ -1200,19 +1185,16 @@ a:hover {
   }
   #shiny-template #contacto #cform .caldera-grid .form-control::-webkit-input-placeholder {
     color: white;
-    font-family: 'Poetsen One';
     font-size: 21px;
   }
   #shiny-template #contacto #cform .help-block {
     color: white;
-    font-family: 'Poetsen One';
     font-size: 21px;
   }
   #shiny-template #contacto #cform .form-control {
     background-color: #a4a2a2;
     padding-bottom: 1px !important;
     color: white;
-    font-family: 'Poetsen One';
     font-size: 21px;
     border-radius: 8px;
   }
@@ -1222,7 +1204,6 @@ a:hover {
   #shiny-template #contacto #cform .boton-enviar {
     float: right;
     clear: both;
-    font-family: 'Poetsen One';
     background-color: #346cb3;
     color: white;
     box-shadow: -5px 3px 3px black;
@@ -1239,7 +1220,6 @@ a:hover {
     font-size: 28px;
     padding: 22px 28px;
     border-radius: 8px;
-    font-family: 'Poetsen One';
     transition: 0.3s all !important;
   }
   #shiny-template #contacto #cform input.btn-form-class:hover {
@@ -1339,7 +1319,6 @@ a:hover {
   #shiny-template #aprender h1 {
     color: white;
     font-size: 26px;
-    font-family: 'Poetsen One';
     padding-top: 300px;
     padding-bottom: 240px;
   }
@@ -1407,7 +1386,6 @@ a:hover {
   }
   #shiny-template #niveles .flex .col h3 {
     font-size: 18px;
-    font-family: 'Poetsen One';
     color: #346cb3;
     padding-top: 20px;
     padding-bottom: 30px;
@@ -1465,7 +1443,6 @@ a:hover {
   #shiny-template #five h2,
   #shiny-template #five p {
     color: #346cb3;
-    font-family: 'Poetsen One';
     text-align: center;
   }
 }

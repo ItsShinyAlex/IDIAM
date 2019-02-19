@@ -48,13 +48,6 @@
   #shiny-template li {
     font-size: 18px;
     color: #4f4f4f;
-    font-family: 'Kandira PERSONAL';
-  }
-  #shiny-template .kan {
-    font-family: 'Kandira PERSONAL' !important;
-  }
-  #shiny-template .posten {
-    font-family: 'Poetsen One' !important;
   }
   #shiny-template .shadow {
     text-shadow: 2px 2px 8px #000000;
@@ -69,7 +62,6 @@
     text-align: center;
   }
   #shiny-template h2 {
-    font-family: 'Poetsen One';
     font-size: 22px;
   }
   #shiny-template .container {
@@ -86,7 +78,6 @@
     font-size: 28px;
     padding: 22px 28px;
     border-radius: 8px;
-    font-family: 'Poetsen One';
     transition: 0.3s all !important;
   }
   #shiny-template .btn:hover {
@@ -108,7 +99,6 @@
   }
   #shiny-template #slider-home #rev_slider_2_2_wrapper #slide-2-layer-1 h1,
   #shiny-template #slider-home #rev_slider_2_2_wrapper #slide-2-layer-1 h2 {
-    font-family: 'Poetsen One' !important;
     font-size: 26px !important;
     text-align: center !important;
     margin: auto !important;
@@ -142,8 +132,8 @@
     line-height: 115%;
   }
   #shiny-template #somos .txt {
-    padding-left: 7%;
-    padding-right: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
   }
   #shiny-template #somos .oneimg {
     padding: 0;
@@ -258,13 +248,11 @@
   }
   #shiny-template #valores h2,
   #shiny-template #ventajas h2 {
-    font-family: 'Poetsen One';
     padding-bottom: 60px;
   }
   #shiny-template #valores p,
   #shiny-template #ventajas p {
     font-size: 14px;
-    font-family: 'Poetsen One';
     padding: 10px 22%;
     color: #6b6b6b;
     font-weight: 100;
@@ -320,7 +308,6 @@
   #shiny-template #howtopay p,
   #shiny-template #galeria p {
     font-size: 18px;
-    font-family: 'Poetsen One';
     font-weight: 100;
   }
   #shiny-template #contacto {
@@ -360,7 +347,6 @@
     margin-bottom: 35px;
   }
   #shiny-template #contacto #mapa p {
-    font-family: 'Poetsen One';
     font-size: 18px;
     margin-bottom: 0;
   }
@@ -408,7 +394,6 @@
     margin-left: 1px;
   }
   #shiny-template #contacto .c-col p {
-    font-family: 'Kandira PERSONAL';
     font-size: 15px;
     font-weight: 500;
   }
@@ -433,19 +418,16 @@
   }
   #shiny-template #contacto #cform .caldera-grid .form-control::-webkit-input-placeholder {
     color: white;
-    font-family: 'Poetsen One';
     font-size: 21px;
   }
   #shiny-template #contacto #cform .help-block {
     color: white;
-    font-family: 'Poetsen One';
     font-size: 21px;
   }
   #shiny-template #contacto #cform .form-control {
     background-color: #a4a2a2;
     padding-bottom: 1px !important;
     color: white;
-    font-family: 'Poetsen One';
     font-size: 21px;
     border-radius: 8px;
   }
@@ -455,7 +437,6 @@
   #shiny-template #contacto #cform .boton-enviar {
     float: right;
     clear: both;
-    font-family: 'Poetsen One';
     background-color: #346cb3;
     color: white;
     box-shadow: -5px 3px 3px black;
@@ -472,7 +453,6 @@
     font-size: 28px;
     padding: 22px 28px;
     border-radius: 8px;
-    font-family: 'Poetsen One';
     transition: 0.3s all !important;
   }
   #shiny-template #contacto #cform input.btn-form-class:hover {
@@ -572,7 +552,6 @@
   #shiny-template #aprender h1 {
     color: white;
     font-size: 26px;
-    font-family: 'Poetsen One';
     padding-top: 300px;
     padding-bottom: 240px;
   }
@@ -640,7 +619,6 @@
   }
   #shiny-template #niveles .flex .col h3 {
     font-size: 18px;
-    font-family: 'Poetsen One';
     color: #346cb3;
     padding-top: 20px;
     padding-bottom: 30px;
@@ -698,7 +676,6 @@
   #shiny-template #five h2,
   #shiny-template #five p {
     color: #346cb3;
-    font-family: 'Poetsen One';
     text-align: center;
   }
 }
